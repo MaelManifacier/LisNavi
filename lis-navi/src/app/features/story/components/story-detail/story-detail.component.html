@@ -1,0 +1,18 @@
+<div class="container-page-detail">
+  <div class="container-text">
+    <p [innerHTML]="page?.text1"></p>
+  </div>
+
+  <div class="img-centrale" [style.visibility]="page?.image1 ? 'visible' : 'hidden'">
+    <img class="img1" max-width="50%" [src]="page?.image1" />
+  </div>
+
+  <div class="container-text">
+    <p [style.text-align]="page?.isFlower ? 'center' : ''" [innerHTML]="page?.text2"></p>
+  </div>
+
+  <div *ngIf="page?.image2" class="container-img-bottom">
+    <img [src]="page?.image2" />
+  </div>
+
+</div>

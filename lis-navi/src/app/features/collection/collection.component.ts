@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-story',
+  selector: 'app-collection',
   template: ``
 })
-export class StoryComponent implements OnInit {
+export class CollectionComponent implements OnInit {
 
   constructor() { }
 
