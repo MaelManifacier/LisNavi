@@ -1,1 +1,14 @@
-<p>collection-card-detail works!</p>
+
+<div class="container-card" [routerLink]="['../story', pageCollection?.noPage]">
+  <img class="imagePage" [src]="pageCollection?.image" />
+
+  <div *ngIf="pageCollection?.isTitleImg; then image else texte"></div>
+  <ng-template #image>
+    <div class="imageTitle">
+      <img [src]="pageCollection?.titre"/>
+    </div>
+  </ng-template>
+  <ng-template #texte>
+    <p>{{ pageCollection?.titre }}</p>
+  </ng-template>
+</div>

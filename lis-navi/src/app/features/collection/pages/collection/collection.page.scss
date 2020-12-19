@@ -1,0 +1,29 @@
+header {
+  max-height: 10vh;
+  margin: 4vh 5px 0;
+  display: flex;
+  justify-content: space-between;
+
+  .title-collection {
+    display: flex;
+    align-items: center;
+    margin: 1vh 5vw;
+    h1 {
+      font-size: 24px;
+      margin-left: 10px;
+      font-weight: 400;
+      letter-spacing: .1rem;
+    }
+  }
+
+  img {
+    max-height: 10vh;
+  }
+}
+
+.container-cards {
+  margin: 6vh 1vw 2vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2vw;
+}

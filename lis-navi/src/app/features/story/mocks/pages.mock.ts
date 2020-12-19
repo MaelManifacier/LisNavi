@@ -149,7 +149,7 @@ export const PAGES : Page[] = [
     image1: 'assets/story/12.svg',
     isBackground: false,
     isFlower: false,
-    image2: 'assets/story/feet.svg'
+    image2: 'assets/story/feets.svg'
   },
   {
     noPage: 13,

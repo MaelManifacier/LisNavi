@@ -1,4 +1,5 @@
-import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
+import { Component, OnInit, ChangeDetectionStrategy, Input } from '@angular/core';
+import { PageCollection } from '../../model/page-collection.model';
 
 @Component({
   selector: 'app-collection-card-detail',
@@ -7,6 +8,8 @@ import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class CollectionCardDetailComponent implements OnInit {
+
+  @Input() pageCollection?: PageCollection;
 
   constructor() { }
 

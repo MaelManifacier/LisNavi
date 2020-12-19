@@ -1,1 +1,14 @@
-<p>collection works!</p>
+
+<header>
+  <div class="title-collection">
+    <img src="assets/story/collection-title-1.svg" />
+    <h1>Collection</h1>
+  </div>
+  <button [routerLink]="['../story', 1]">
+    <img src="assets/story/moon-light.svg"/>
+  </button>
+</header>
+
+<div class="container-cards">
+  <app-collection-card-detail *ngFor="let page of pagesCollection" [pageCollection]=page></app-collection-card-detail>
+</div>
