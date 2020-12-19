@@ -1,0 +1,145 @@
+{
+  "configVersion": 1,
+  "timestamp": 1608414317368,
+  "index": "https://maelmanifacier.github.io/LisNavi/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://maelmanifacier.github.io/LisNavi/4.c0b017e9363b48e43c49.js",
+        "https://maelmanifacier.github.io/LisNavi/5.9246f45f3f5b256d118a.js",
+        "https://maelmanifacier.github.io/LisNavi/favicon.ico",
+        "https://maelmanifacier.github.io/LisNavi/index.html",
+        "https://maelmanifacier.github.io/LisNavi/main.c751840f41266300b4c6.js",
+        "https://maelmanifacier.github.io/LisNavi/manifest.webmanifest",
+        "https://maelmanifacier.github.io/LisNavi/polyfills.8c151b8375e767ff858f.js",
+        "https://maelmanifacier.github.io/LisNavi/runtime.76233d0a2e725a0962a8.js",
+        "https://maelmanifacier.github.io/LisNavi/styles.14f9bf6abffb4bb792a6.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://maelmanifacier.github.io/LisNavi/assets/icons/android-144x144.png",
+        "https://maelmanifacier.github.io/LisNavi/assets/icons/android-192x192.png",
+        "https://maelmanifacier.github.io/LisNavi/assets/icons/android-36x36.png",
+        "https://maelmanifacier.github.io/LisNavi/assets/icons/android-48x48.png",
+        "https://maelmanifacier.github.io/LisNavi/assets/icons/android-72x72.png",
+        "https://maelmanifacier.github.io/LisNavi/assets/icons/android-96x196.png",
+        "https://maelmanifacier.github.io/LisNavi/assets/icons/apple-touch-icon-180x180.png",
+        "https://maelmanifacier.github.io/LisNavi/assets/icons/icon-16x16.png",
+        "https://maelmanifacier.github.io/LisNavi/assets/icons/icon-32x32.png",
+        "https://maelmanifacier.github.io/LisNavi/assets/icons/tile150x150.png",
+        "https://maelmanifacier.github.io/LisNavi/assets/icons/tile310x150.png",
+        "https://maelmanifacier.github.io/LisNavi/assets/icons/tile310x310.png",
+        "https://maelmanifacier.github.io/LisNavi/assets/icons/tile70x70.png",
+        "https://maelmanifacier.github.io/LisNavi/assets/story/1.svg",
+        "https://maelmanifacier.github.io/LisNavi/assets/story/10-flower.svg",
+        "https://maelmanifacier.github.io/LisNavi/assets/story/11.svg",
+        "https://maelmanifacier.github.io/LisNavi/assets/story/12.svg",
+        "https://maelmanifacier.github.io/LisNavi/assets/story/13.svg",
+        "https://maelmanifacier.github.io/LisNavi/assets/story/14.svg",
+        "https://maelmanifacier.github.io/LisNavi/assets/story/15-flocon.svg",
+        "https://maelmanifacier.github.io/LisNavi/assets/story/15.svg",
+        "https://maelmanifacier.github.io/LisNavi/assets/story/2.svg",
+        "https://maelmanifacier.github.io/LisNavi/assets/story/3.svg",
+        "https://maelmanifacier.github.io/LisNavi/assets/story/4.svg",
+        "https://maelmanifacier.github.io/LisNavi/assets/story/5.svg",
+        "https://maelmanifacier.github.io/LisNavi/assets/story/6.svg",
+        "https://maelmanifacier.github.io/LisNavi/assets/story/7.svg",
+        "https://maelmanifacier.github.io/LisNavi/assets/story/8.svg",
+        "https://maelmanifacier.github.io/LisNavi/assets/story/9.svg",
+        "https://maelmanifacier.github.io/LisNavi/assets/story/collection-old-photo.svg",
+        "https://maelmanifacier.github.io/LisNavi/assets/story/collection-title-1.svg",
+        "https://maelmanifacier.github.io/LisNavi/assets/story/collection-title.svg",
+        "https://maelmanifacier.github.io/LisNavi/assets/story/feet.svg",
+        "https://maelmanifacier.github.io/LisNavi/assets/story/feets.svg",
+        "https://maelmanifacier.github.io/LisNavi/assets/story/last.svg",
+        "https://maelmanifacier.github.io/LisNavi/assets/story/moon-light.svg",
+        "https://maelmanifacier.github.io/LisNavi/assets/story/next.svg",
+        "https://maelmanifacier.github.io/LisNavi/assets/titre.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://maelmanifacier.github.io/LisNavi/4.c0b017e9363b48e43c49.js": "596d7b0ff31b7ef850c419907067d31b7e707574",
+    "https://maelmanifacier.github.io/LisNavi/5.9246f45f3f5b256d118a.js": "62c874f13c2d982111fbcdb3ac0c7c267ffef7fa",
+    "https://maelmanifacier.github.io/LisNavi/assets/icons/android-144x144.png": "64ba835c49c555e4485bacfa5cde1c046cda37d8",
+    "https://maelmanifacier.github.io/LisNavi/assets/icons/android-192x192.png": "36ad26dd9818045680861f4d697fa74ca4bf2e05",
+    "https://maelmanifacier.github.io/LisNavi/assets/icons/android-36x36.png": "89c2f6f203c0897ac22520b6359a583a759b32cc",
+    "https://maelmanifacier.github.io/LisNavi/assets/icons/android-48x48.png": "87092800395da60c6d2cedfc19d8fcdd7ba69b2e",
+    "https://maelmanifacier.github.io/LisNavi/assets/icons/android-72x72.png": "88d507d73c89e6d66eaf1ae3a0e6df484f8ed675",
+    "https://maelmanifacier.github.io/LisNavi/assets/icons/android-96x196.png": "9e76eed5dc4bae501c5610cd4d11203ee4fe0e9a",
+    "https://maelmanifacier.github.io/LisNavi/assets/icons/apple-touch-icon-180x180.png": "1a31cd14e6f8f6b2452909e817ff499a7490b78e",
+    "https://maelmanifacier.github.io/LisNavi/assets/icons/icon-16x16.png": "8bb20dc3b90c6140c4d2997381e5046fa8fea2d6",
+    "https://maelmanifacier.github.io/LisNavi/assets/icons/icon-32x32.png": "41b78c9d4e9554f6c4746c7c952b51af28dd3485",
+    "https://maelmanifacier.github.io/LisNavi/assets/icons/tile150x150.png": "6e61197a1266a9238b95fd7148cadd08474cf558",
+    "https://maelmanifacier.github.io/LisNavi/assets/icons/tile310x150.png": "bf59bdc41a39c5097847235027b2a8d8b19dd845",
+    "https://maelmanifacier.github.io/LisNavi/assets/icons/tile310x310.png": "70a97ea3758e801cfd025408d743d7b380d995b8",
+    "https://maelmanifacier.github.io/LisNavi/assets/icons/tile70x70.png": "18a9b06908f54f747bd8783ee98fc8616f061445",
+    "https://maelmanifacier.github.io/LisNavi/assets/story/1.svg": "2651987880ca284f1800cc28b6bbf81930525c70",
+    "https://maelmanifacier.github.io/LisNavi/assets/story/10-flower.svg": "4253991d53fa2d1cfa48042174682da0cb374387",
+    "https://maelmanifacier.github.io/LisNavi/assets/story/11.svg": "88d634666a705ed334f6dbf4b4d6d2dc1f080411",
+    "https://maelmanifacier.github.io/LisNavi/assets/story/12.svg": "302316e8025778b6987c2a1fc4dda57a5b21574c",
+    "https://maelmanifacier.github.io/LisNavi/assets/story/13.svg": "f391229d3304f253f1d2e8a56d44ac47d4ad44e2",
+    "https://maelmanifacier.github.io/LisNavi/assets/story/14.svg": "d04aeec753825a248c67f1f8a41ff666adc55a01",
+    "https://maelmanifacier.github.io/LisNavi/assets/story/15-flocon.svg": "a23008fb0959b99dc24897796bf3f72859c6bab4",
+    "https://maelmanifacier.github.io/LisNavi/assets/story/15.svg": "ec52f2f2a6ad49ee5d7e66887051d164702f2d22",
+    "https://maelmanifacier.github.io/LisNavi/assets/story/2.svg": "933a8945705c07b435bf40a417c042a2dc31173c",
+    "https://maelmanifacier.github.io/LisNavi/assets/story/3.svg": "ba8a05ea8ccd5484e3249b7e5cbc7c02f145a388",
+    "https://maelmanifacier.github.io/LisNavi/assets/story/4.svg": "92e004504fb0e539fcf0a03dd652fec954ac2895",
+    "https://maelmanifacier.github.io/LisNavi/assets/story/5.svg": "e2a902f21716bf63008d8e7c425362c94e037db7",
+    "https://maelmanifacier.github.io/LisNavi/assets/story/6.svg": "81feb6747ffddbf473999a9a97ce899e2ffbb433",
+    "https://maelmanifacier.github.io/LisNavi/assets/story/7.svg": "096534d92006cb71b546f896a3cdee4218e9940f",
+    "https://maelmanifacier.github.io/LisNavi/assets/story/8.svg": "41d1c7af6426f0f13075142202169881b87bbc6b",
+    "https://maelmanifacier.github.io/LisNavi/assets/story/9.svg": "7c6954bd25dc26a955e41c55078ff17d67c80a57",
+    "https://maelmanifacier.github.io/LisNavi/assets/story/collection-old-photo.svg": "cde880dfc264196bbd63e3791ad4cd96f8a28c05",
+    "https://maelmanifacier.github.io/LisNavi/assets/story/collection-title-1.svg": "e665ea4ef010a2b837e3518fc790de9deba6a4c4",
+    "https://maelmanifacier.github.io/LisNavi/assets/story/collection-title.svg": "7dae428b463c4fe79e9343526bbf05bf5e0736d5",
+    "https://maelmanifacier.github.io/LisNavi/assets/story/feet.svg": "693209cc2b31117d53e220d009123c74a2f613b9",
+    "https://maelmanifacier.github.io/LisNavi/assets/story/feets.svg": "c0422e8b3b338bb2294667902d79a5a88718dff6",
+    "https://maelmanifacier.github.io/LisNavi/assets/story/last.svg": "4e5ce77fa9bb498bce50319fc2e5a20275d3d7f3",
+    "https://maelmanifacier.github.io/LisNavi/assets/story/moon-light.svg": "83cc34be510148cd13cdc97c60dfe121015d7b6a",
+    "https://maelmanifacier.github.io/LisNavi/assets/story/next.svg": "50faff8fe3712027a68468f6d085cfcaa1083355",
+    "https://maelmanifacier.github.io/LisNavi/assets/titre.svg": "563c54f89cd192c518a889f4d776d197b0ba954b",
+    "https://maelmanifacier.github.io/LisNavi/favicon.ico": "40ac5ee3ba58e3903f0cf3030d25e6bd3c7ea859",
+    "https://maelmanifacier.github.io/LisNavi/index.html": "2fdd97e508d084203b730856f0e9c17a02b5460d",
+    "https://maelmanifacier.github.io/LisNavi/main.c751840f41266300b4c6.js": "8b9e0058eea5351534e4cc59d77cf6eaa03c6ce4",
+    "https://maelmanifacier.github.io/LisNavi/manifest.webmanifest": "46a3cc27e43c9ad01becb7d6f5014e43cdaf013e",
+    "https://maelmanifacier.github.io/LisNavi/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
+    "https://maelmanifacier.github.io/LisNavi/runtime.76233d0a2e725a0962a8.js": "feedb36b2ccb2f00b3c2e54a7853d49ec76e9363",
+    "https://maelmanifacier.github.io/LisNavi/styles.14f9bf6abffb4bb792a6.css": "a65722188dc754621c3d0aba4a1f9c5b0f9111f7"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
