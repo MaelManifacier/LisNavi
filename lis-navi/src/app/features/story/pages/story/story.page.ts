@@ -24,9 +24,8 @@ export class StoryPage implements OnInit {
     ).subscribe((id : string) => {
       console.log("PARAM : ", id)
       this.currentPage = parseInt(id);
+      window.scrollTo(0, 0);
     })
-
-    window.scrollTo(0, 0);
   }
 
   last() {

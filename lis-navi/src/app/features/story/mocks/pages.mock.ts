@@ -3,7 +3,10 @@ import { Page } from '../model/page.model';
 export const PAGES : Page[] = [
   {
     noPage: 1,
-    text1: 'Bonjour, je suis Xuě. Le 2 Shi\'èr yuè, en plein milieu de l\'hiver, j\'ai dû quitter mon village.',
+    text1: `Je suis Xuě. <br/> Xiāo Xuě. <br/>
+    J'étais une enfant de la Chine lorsque les attaques ont commencé. <br/>
+    Le 2 Shi'èr yuè, en plein coeur de l'hiver,
+    j'ai dû quitter mon village.`,
     text2: '',
     image1: 'assets/story/1.svg',
     isBackground: false,
@@ -12,15 +15,16 @@ export const PAGES : Page[] = [
   },
   {
     noPage: 2,
-    text1: `Ma mère s'était accroupie pour être à mon niveau. <br/>
+    text1: `Avant de sortir, ma mère s’était accroupie pour être à mon niveau. <br/>
     Elle le faisait toujours lorsqu’elle voulait me dire quelque chose d’important.`,
-    text2: `“A deux, vous passerez inaperçus.”
+    text2: `« A deux, vous passerez inaperçus. » <br/>
     <br/>
-    Elle avait ensuite mis la main de mon petit frère dans la mienne et les avait serrés quelques instants.
-    Ses yeux brillaient comme la neige au soleil.
+    Elle avait ensuite mis la main de mon petit frère dans la mienne et les avait serrées quelques instants.
+    Ses yeux brillaient comme la neige au soleil. <br/>
     <br/>
-    “Tu dois être forte, Xiǎo Xuě. <br/>
-    Traverse la montagne. Retrouve le village de Lis Navi. On vous retrouvera de l’autre côté." m’avait promis ma mère.`,
+    « Tu dois être forte, xiǎo Xuě. <br/>
+    Traverse la montagne. Trouve le village de Lis Navi. On vous retrouvera de l’autre côté. » m’avait-elle promis. Mais j'avais lu le doute dans son regard. <br/> <br/>
+    Elle avait ensuite couru avec nous jusqu'à la sortie du village et nous avait pris dans ses bras.`,
     image1: 'assets/story/2.svg',
     isBackground: false,
     isFlower: false,
@@ -28,10 +32,10 @@ export const PAGES : Page[] = [
   },
   {
     noPage: 3,
-    text1: `Nous sommes partis avec rien, à pieds. <br/>
-    Le temps a passé. <br/>
+    text1: `Maintenant, nous étions seuls et je me devais de veiller sur mon frère, Yong. <br/>
+    Nous n'étions partis avec rien, mes seuls souvenirs comme carte et notre force pour braver le froid.`,
+    text2: `Le temps a passé. <br/>
     Dans la montagne, la neige était partout.`,
-    text2: ``,
     image1: 'assets/story/3.svg',
     isBackground: false,
     isFlower: false,
@@ -51,9 +55,11 @@ export const PAGES : Page[] = [
   },
   {
     noPage: 5,
-    text1: `Soudain, le nuage qui accrochait les arêtes tranchantes s'est éloigné… J'ai vu alors la montagne, magnifique. Nous étions si haut !
+    text1: `Nous étions toujours plus haut, les repères me manquaient. <br/>
+    Soudain, le nuage qui accrochait les arêtes tranchantes s'est éloigné. La montagne s'étendait sous nos yeux, magnifique. Nous étions si haut !
     `,
-    text2: `Mais le froid nous rattrapait et Yong, qui ne se plaignait pas, grelottait à côté de moi, les yeux à demi fermés.`,
+    text2: `Mais le froid nous rattrapait et Yong, qui ne se plaignait pas, grelottait à côté de moi, les yeux à demi fermés. <br/>
+    Je sentais tous mes membres se pétrifier progressivement.`,
     image1: 'assets/story/5.svg',
     isBackground: false,
     isFlower: false,
@@ -73,15 +79,6 @@ export const PAGES : Page[] = [
   },
   {
     noPage: 7,
-    text1: ``,
-    text2: ``,
-    image1: 'assets/story/7.svg',
-    isBackground: false,
-    isFlower: false,
-    image2: ''
-  },
-  {
-    noPage: 2,
     text1: `Je ne le sentis pas tomber… <br/>
     Yong s'effondra dans la neige, le vent sifflant à mes oreilles me cachant le bruit sourd de sa chute.
     Nos mains, glacées, s'étaient détachées.`,
@@ -94,7 +91,7 @@ export const PAGES : Page[] = [
   {
     noPage: 8,
     text1: `Lentement, comme dans un rêve, je me rendis compte de son absence. <br/>
-    Mais je ne pouvais bouger. <br/>
+    Mais je ne pouvais plus bouger. <br/>
     Où étaient mes parents ? <br/>
     Pourquoi m'avaient-ils demandé de partir ? <br/>
     Je ne me souvenais pas d’être tombée, <br/>
@@ -112,9 +109,11 @@ export const PAGES : Page[] = [
     noPage: 9,
     text1: `Je la vis alors. <br/>
     Une pousse minuscule, d’un vert tendre, qui bravait la couche de coton pour atteindre la lumière. <br/>
-    Lentement, la pousse s’éleva, un bourgeon replié contre sa tige comme pour garder sa chaleur. <br/>
-    Elle traversa le dernier millimètre, et apparut au soleil éclatant.`,
-    text2: `Dans un dernier effort, le bourgeon minuscule se déplia. Apparut une fleur blanche en forme de clochette.`,
+    Elle paraissait si fragile, le moindre souffle de vent l'aurait faite plier. <br/>
+    Je ne voyais plus qu'elle, et je me surpris à l'encourager.`,
+    text2: `Lentement, la pousse s’éleva, un bourgeon replié contre sa tige comme pour garder sa chaleur. <br/>
+    Elle traversa le dernier millimètre, et apparut au soleil éclatant. <br/>
+    Alors seulement, le bourgeon minuscule se déplia. Apparut une fleur blanche en forme de clochette.`,
     image1: 'assets/story/9.svg',
     isBackground: false,
     isFlower: false,
@@ -124,7 +123,7 @@ export const PAGES : Page[] = [
     noPage: 10,
     text1: `D’apparence fragile, la fleur paraissait me montrer le chemin. <br/>
     J’eus l’impression qu’elle me soufflait:`,
-    text2: `« Tu vois, c’est simple. Il suffit de mettre un pied devant l’autre, lentement, sans jamais s’arrêter, et alors même un obstacle bien plus grand que toi ne t’arrêtera pas. »`,
+    text2: `« Tu vois, c’est simple. Il suffit d'avancer lentement, sans jamais s’arrêter, et alors même un obstacle bien plus grand que toi ne t’arrêtera pas. »`,
     image1: 'assets/story/10-flower.svg',
     isBackground: false,
     isFlower: true,
@@ -135,8 +134,8 @@ export const PAGES : Page[] = [
     text1: `Mes jambes mirent du temps à répondre, mais je n’abandonnais pas. <br/>
     Je fis quelques pas dans la neige, tremblant de froid. <br/>
     Tout autour, je voyais les centaines de clochettes qui bravaient en silence leur propre sarcophage.`,
-    text2: `Quelques mètres plus loin, j’ai vu une forme dans la neige. Un petit être que j’ai pris dans mes bras pour le réchauffer. <br/>
-    Je lui ai prêté mon courage et nous sommes repartis.`,
+    text2: `Quelques mètres en arrière, je reconnus une forme dans la neige. Un petit être que je pris dans mes bras pour le réchauffer. <br/>
+    Je lui ai prêté mon courage, et nous sommes repartis.`,
     image1: 'assets/story/11.svg',
     isBackground: true,
     isFlower: false,
@@ -153,8 +152,10 @@ export const PAGES : Page[] = [
   },
   {
     noPage: 13,
-    text1: `Je ne me souviens pas de notre arrivée au village. Ni des jours qui ont suivi.`,
-    text2: `Le froid était resté prisonnier dans mon cœur, qui me pesait comme un rocher de glace.`,
+    text1: `Je ne me souviens pas de notre arrivée au village. Ni des jours qui ont suivi. <br/>
+    En souvenir de notre voyage, pour la remercier du courage qu'elle m'avait donné, j'ai offert à la fleur le nom du village : Lis Navi.`,
+    text2: `Le temps fuyait toujours, mais le froid était resté prisonnier dans mon cœur, qui me pesait comme un rocher de glace. <br/>
+    Nous étions seuls.`,
     image1: 'assets/story/13.svg',
     isBackground: false,
     isFlower: false,
@@ -162,8 +163,8 @@ export const PAGES : Page[] = [
   },
   {
     noPage: 14,
-    text1: `Je ne sais combien de temps j'y suis restée.`,
-    text2: `Mais il est une chose dont je me souviendrais toujours.`,
+    text1: `Je ne sais combien de temps je suis restée au village.`,
+    text2: `Mais il est une chose dont je me souviendrai toujours.`,
     image1: 'assets/story/14.svg',
     isBackground: false,
     isFlower: false,
@@ -171,13 +172,13 @@ export const PAGES : Page[] = [
   },
   {
     noPage: 15,
-    text1: `J'étais sortie chercher du bois. <br/>
-    Alors que je me redressais, j’ai vu une forme qui avançait dans la neige. Suivie par d’autres.
+    text1: `J'étais sortie chercher du bois dans les alentours. <br/>
+    Alors que je me redressais, j’ai vu une silhouette qui avançait dans la neige. Suivie par d’autres. <br/>
     J’ai reconnu la première.`,
     text2: `Et alors, j’ai senti de nouveau la chaleur du soleil. <br/>
     J’ai couru vers elle plus vite que je n'avais jamais couru. <br/>
     <br/>
-    Elle m’avait retrouvé.`,
+    Elle m’avait retrouvée.`,
     image1: 'assets/story/15.svg',
     isBackground: false,
     isFlower: false,

@@ -9,12 +9,12 @@ export const PAGESCOLLECTION : PageCollection[] = [
   {
     noPage: 2,
     titre: 'souvenir',
-    image: 'assets/story/3.svg'
+    image: 'assets/story/2.svg'
   },
   {
     noPage: 3,
     titre: 'dans la montagne',
-    image: 'assets/story/4.svg'
+    image: 'assets/story/3.svg'
   },
   {
     noPage: 4,
@@ -28,7 +28,7 @@ export const PAGESCOLLECTION : PageCollection[] = [
   },
   {
     noPage: 6,
-    titre: 'falling in the night',
+    titre: 'une berceuse',
     image: 'assets/story/6.svg'
   },
   {

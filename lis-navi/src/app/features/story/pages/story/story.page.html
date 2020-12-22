@@ -13,10 +13,10 @@
 </div>
 
 <div class="footer">
-  <button (click)="last()" [style.visibility]="currentPage > 1 ? 'visible' : 'hidden'">
+  <button class="last" (click)="last()" [style.visibility]="currentPage > 1 ? 'visible' : 'hidden'">
     <img src="assets/story/last.svg" />
   </button>
-  <button (click)="next()" [style.visibility]="currentPage < 16 ? 'visible' : 'hidden'">
+  <button class="next" (click)="next()" [style.visibility]="currentPage < 15 ? 'visible' : 'hidden'">
     <img src="assets/story/next.svg" />
   </button>
 </div>

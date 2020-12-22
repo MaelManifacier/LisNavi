@@ -1,4 +1,4 @@
-import { Component, OnInit, ChangeDetectionStrategy, Input } from '@angular/core';
+import { Component, OnInit, ChangeDetectionStrategy, Input, SimpleChanges } from '@angular/core';
 import { Page } from '../../model/page.model';
 
 @Component({
@@ -26,6 +26,14 @@ export class StoryDetailComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
+  }
+
+  ngOnChanges(changes: SimpleChanges): void {
+    //Called before any other lifecycle hook. Use it to inject dependencies, but avoid any serious work here.
+    //Add '${implements OnChanges}' to the class.
+    console.log("Change")
+    window.scrollTo(0, 0);
   }
 
 }

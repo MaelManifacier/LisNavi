@@ -1,5 +1,11 @@
 # LisNavi
 
+Déployer :
+
+Dans l'angular.json, avoir : "outputPath": "dist",
+> ng build --prod --baseHref="https://maelmanifacier.github.io/LisNavi/"
+> ngh
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.3.
 
 ## Development server
