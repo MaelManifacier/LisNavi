@@ -6,7 +6,7 @@ import { map } from 'rxjs/operators';
 
 @Component({
   templateUrl: './story.page.html',
-  styleUrls: ['./story.page.scss']
+  styleUrls: ['./story.page.scss'],
 })
 export class StoryPage implements OnInit {
 
