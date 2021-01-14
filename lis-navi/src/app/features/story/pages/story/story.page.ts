@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { PAGES } from '../../mocks/pages.mock';
+import { PAGESLISNAVI } from '../../mocks/pages-lis-navi.mock';
 import { Page } from '../../model/page.model';
 import { map } from 'rxjs/operators';
 
@@ -10,7 +10,7 @@ import { map } from 'rxjs/operators';
 })
 export class StoryPage implements OnInit {
 
-  pages: Page[] = PAGES;
+  pages: Page[] = PAGESLISNAVI;
 
   currentPage : number = 1;
 

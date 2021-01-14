@@ -1,6 +1,6 @@
 import { Page } from '../model/page.model';
 
-export const PAGES : Page[] = [
+export const PAGESLISNAVI : Page[] = [
   {
     noPage: 1,
     text1: `Je suis Xuě. <br/> Xiāo Xuě. <br/>
