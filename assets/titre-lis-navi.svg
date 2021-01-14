@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="330" height="223" viewBox="0 0 330 223">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.698" y1="0.044" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fffefa"/>
+      <stop offset="1" stop-color="#faefd0"/>
+    </linearGradient>
+    <filter id="Ellipse_32" x="0" y="0" width="223" height="223" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#fdf7e6" flood-opacity="0.6"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Groupe_80" data-name="Groupe 80" transform="translate(30 30)">
+    <path id="Tracé_260" data-name="Tracé 260" d="M1.8-13.135a7.31,7.31,0,0,1,1.07.911c1.164,1.13,1.78,1.456,1.78,2.53A6.761,6.761,0,0,1,3.505-6.6a2.734,2.734,0,0,1-1.946.747C.69-6.024,0-7.84,0-9.429S.2-13.041,1.8-13.135Z" transform="translate(18.229 131.394)" fill="#b9403e"/>
+    <g transform="matrix(1, 0, 0, 1, -30, -30)" filter="url(#Ellipse_32)">
+      <circle id="Ellipse_32-2" data-name="Ellipse 32" cx="81.5" cy="81.5" r="81.5" transform="translate(30 30)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="Tracé_262" data-name="Tracé 262" d="M1.8,0a7.31,7.31,0,0,1,1.07.911c1.164,1.13,1.78,1.456,1.78,2.53A6.761,6.761,0,0,1,3.505,6.534a2.734,2.734,0,0,1-1.946.747C.69,7.112,0,5.3,0,3.707S.2.094,1.8,0Z" transform="translate(47.704 122.169) rotate(71)" fill="#b9403e"/>
+    <path id="Tracé_263" data-name="Tracé 263" d="M.927,0a3.761,3.761,0,0,1,.551.469c.6.581.916.749.916,1.3A3.479,3.479,0,0,1,1.8,3.362a1.407,1.407,0,0,1-1,.385C.355,3.659,0,2.725,0,1.907S.1.048.927,0Z" transform="matrix(0.921, -0.391, 0.391, 0.921, 39.258, 153.044)" fill="#b9403e"/>
+    <path id="Tracé_264" data-name="Tracé 264" d="M1.8,0a7.31,7.31,0,0,1,1.07.911c1.164,1.13,1.78,1.456,1.78,2.53A6.761,6.761,0,0,1,3.505,6.534a2.734,2.734,0,0,1-1.946.747C.69,7.112,0,5.3,0,3.707S.2.094,1.8,0Z" transform="matrix(0.53, -0.848, 0.848, 0.53, 9.293, 146.77)" fill="#b9403e"/>
+    <path id="Tracé_265" data-name="Tracé 265" d="M1.8,0a7.31,7.31,0,0,1,1.07.911c1.164,1.13,1.78,1.456,1.78,2.53A6.761,6.761,0,0,1,3.505,6.534a2.734,2.734,0,0,1-1.946.747C.69,7.112,0,5.3,0,3.707S.2.094,1.8,0Z" transform="matrix(0.766, 0.643, -0.643, 0.766, 64.56, 95.346)" fill="#b9403e"/>
+    <path id="Tracé_266" data-name="Tracé 266" d="M1.228,0a4.983,4.983,0,0,1,.729.621c.794.77,1.213.993,1.213,1.724a4.608,4.608,0,0,1-.782,2.108,1.864,1.864,0,0,1-1.327.509C.47,4.847,0,3.609,0,2.526S.138.064,1.228,0Z" transform="matrix(0.998, -0.07, 0.07, 0.998, 53.091, 146.806)" fill="#b9403e"/>
+    <path id="Tracé_267" data-name="Tracé 267" d="M1.122,0a4.552,4.552,0,0,1,.666.567c.725.7,1.109.907,1.109,1.576a4.21,4.21,0,0,1-.714,1.926,1.7,1.7,0,0,1-1.212.465C.43,4.429,0,3.3,0,2.308S.126.059,1.122,0Z" transform="matrix(-0.616, -0.788, 0.788, -0.616, 27.137, 145.54)" fill="#b9403e"/>
+    <path id="Tracé_268" data-name="Tracé 268" d="M1.8-13.135a7.31,7.31,0,0,1,1.07.911c1.164,1.13,1.78,1.456,1.78,2.53A6.761,6.761,0,0,1,3.505-6.6a2.734,2.734,0,0,1-1.946.747C.69-6.024,0-7.84,0-9.429S.2-13.041,1.8-13.135Z" transform="translate(9.467 120.806)" fill="#b9403e"/>
+    <path id="Tracé_269" data-name="Tracé 269" d="M1.439,0a5.841,5.841,0,0,1,.855.728c.93.9,1.422,1.163,1.422,2.021A5.4,5.4,0,0,1,2.8,5.221a2.185,2.185,0,0,1-1.555.6C.551,5.682,0,4.231,0,2.961S.161.075,1.439,0Z" transform="translate(37.862 112.943) rotate(71)" fill="#b9403e"/>
+  </g>
+  <text id="La_légende_de_Lis_Navi" data-name="La légende de Lis Navi" transform="translate(56 103)" fill="#3a3a3a" font-size="27" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">La légende</tspan><tspan y="0" xml:space="preserve" fill="#cfdae0"> de Lis Navi</tspan></text>
+</svg>
