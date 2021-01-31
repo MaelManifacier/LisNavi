@@ -1,22 +1,22 @@
 
 <header>
   <button routerLink="">
-    <img src="assets/titre-lis-navi.svg"/>
+    <img [src]="story.img"/>
   </button>
-  <button routerLink="../../collection">
-    <img src="assets/story/collection-old-photo.svg" />
+  <button *ngIf="story.url == 'lis-navi'" routerLink="../collection">
+    <img src="assets/story/lis-navi/collection-old-photo.svg" />
   </button>
 </header>
 
 <div class="container-detail">
-  <app-story-detail [page]="pages[currentPage-1]"></app-story-detail>
+  <app-story-detail [page]="story.pages[currentPage-1]"></app-story-detail>
 </div>
 
 <div class="footer">
   <button class="last" (click)="last()" [style.visibility]="currentPage > 1 ? 'visible' : 'hidden'">
-    <img src="assets/story/last.svg" />
+    <img [src]="story.btnLast ? story.btnLast : 'assets/story/lis-navi/last.svg'" />
   </button>
-  <button class="next" (click)="next()" [style.visibility]="currentPage < 15 ? 'visible' : 'hidden'">
-    <img src="assets/story/next.svg" />
+  <button class="next" (click)="next()" [style.visibility]="currentPage < story.pages.length ? 'visible' : 'hidden'">
+    <img [src]="story.btnNext ? story.btnNext : 'assets/story/lis-navi/next.svg'" />
   </button>
 </div>

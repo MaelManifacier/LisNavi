@@ -3,12 +3,14 @@ $phone-width: 8in;
 
 /* - - - Contenu composant - - - */
 .container-page-detail {
-  margin: 1vh 4vw;
+  // width: 100wv;
+  margin: 1vh 0;
+  padding: 0 4wv;
   height: 85vh;
-  max-width: 90%;
+  // max-width: 90%;
   overflow-y: scroll;
   overflow-x: hidden;
-  display: inline-block;
+  // display: inline-block;
   .container-contenu {
     margin-bottom: 40vh;
   }
@@ -17,6 +19,11 @@ $phone-width: 8in;
 .container-text {
   max-width: 90%;
   margin: 4vh auto;
+
+  p {
+    line-height: 1.2rem;
+    font-size: 1rem;
+  }
 }
 
 .img-centrale {
@@ -35,6 +42,11 @@ $phone-width: 8in;
   bottom: 0vh;
   right: 0vh;
   z-index: -1;
+}
+
+.container-bottom {
+  margin: 4vh auto 1vh;
+  text-align: center;
 }
 
 /* - - - Sur pc - - - */

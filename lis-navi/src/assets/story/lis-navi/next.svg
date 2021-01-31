@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="105" height="105" viewBox="0 0 105 105">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.698" y1="0.044" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fffefa"/>
+      <stop offset="1" stop-color="#faefd0"/>
+    </linearGradient>
+    <filter id="Ellipse_38" x="0" y="0" width="105" height="105" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#fdf7e6" flood-opacity="0.6"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_38)">
+    <circle id="Ellipse_38-2" data-name="Ellipse 38" cx="22.5" cy="22.5" r="22.5" transform="translate(30 30)" fill="url(#linear-gradient)"/>
+  </g>
+  <g id="back" transform="translate(159.887 61.52) rotate(180)">
+    <g id="Groupe_100" data-name="Groupe 100" transform="translate(102.298 0)">
+      <path id="Tracé_593" data-name="Tracé 593" d="M103.971,9.014l7.83-7.83a.693.693,0,1,0-.98-.98L102.5,8.524a.693.693,0,0,0,0,.98l8.321,8.321a.693.693,0,0,0,.98-.98Z" transform="translate(-102.298 0)" fill="#919191"/>
+    </g>
+  </g>
+</svg>

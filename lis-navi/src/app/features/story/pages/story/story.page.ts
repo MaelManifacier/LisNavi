@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, ParamMap, Router } from '@angular/router';
+import { PAGESGRAPH } from '../../mocks/pages-graph.mock';
 import { PAGESLISNAVI } from '../../mocks/pages-lis-navi.mock';
-import { Page } from '../../model/page.model';
-import { map } from 'rxjs/operators';
+import { Story } from '../../model/story.model';
 
 @Component({
   templateUrl: './story.page.html',
@@ -10,32 +10,43 @@ import { map } from 'rxjs/operators';
 })
 export class StoryPage implements OnInit {
 
-  pages: Page[] = PAGESLISNAVI;
+  story: Story = PAGESLISNAVI;
 
   currentPage : number = 1;
+  storyName: string = '';
 
   constructor(
     private route : ActivatedRoute,
     private router: Router) { }
 
   ngOnInit() {
-    this.route.paramMap.pipe(
-      map((paramMap) => paramMap.get('id') ?? '1'),
-    ).subscribe((id : string) => {
-      console.log("PARAM : ", id)
-      this.currentPage = parseInt(id);
+    this.route.paramMap.subscribe( (params: ParamMap) => {
+      this.currentPage = parseInt(params.get('id') ?? '1');
+      this.storyName = params.get('storyName') ?? '';
+      this.getStoryFromName();
       window.scrollTo(0, 0);
-    })
+    });
+  }
+
+  getStoryFromName() {
+    switch(this.storyName) {
+      case 'lis-navi':
+        this.story = PAGESLISNAVI;
+        break;
+      case 'graph':
+        this.story = PAGESGRAPH;
+        break;
+    }
   }
 
   last() {
     const idNavigate : number = this.currentPage > 1 ? this.currentPage  -1 : 1;
-    this.router.navigate(['/story/', idNavigate]);
+    this.router.navigate(['/story/', { storyName: this.story.url, id: idNavigate }]);
   }
 
   next() {
-    const idNavigate : number = this.currentPage < this.pages.length ? this.currentPage + 1 : 16;
-    this.router.navigate(['/story/', idNavigate]);
+    const idNavigate : number = this.currentPage < this.story.pages.length ? this.currentPage + 1 : 16;
+    this.router.navigate(['/story/', { storyName: this.story.url, id: idNavigate }]);
   }
 
 }

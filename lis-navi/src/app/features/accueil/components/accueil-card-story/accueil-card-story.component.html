@@ -1,0 +1,7 @@
+<div class="container-card"
+    [ngStyle]="setCardStyle()"
+    [routerLink]="['/story/', { storyName: storyCard?.url, id: 1}]">
+
+  <p>{{ storyCard?.title }}</p>
+
+</div>

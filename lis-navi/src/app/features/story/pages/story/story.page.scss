@@ -14,7 +14,7 @@ header {
 }
 
 .container-detail {
-  text-align: center;
+  width: 100vw;
 }
 
 .footer {
@@ -22,6 +22,16 @@ header {
     position: absolute;
     z-index: 2;
     bottom: 2vh;
+
+    cursor: pointer;
+
+    transition: all .25s ease;
+    -webkit-animation-duration: 0.5;
+    animation-duration: 0.5s;
+    -webkit-animation-duration: calc(var(1s) * 0.5);
+    animation-duration: calc(var(1s) * 0.5);
+    -webkit-animation-name: bounceIn;
+    animation-name: bounceIn;
   }
   .last {
     left: 2vw;

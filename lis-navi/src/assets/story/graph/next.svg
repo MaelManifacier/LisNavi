@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="101" height="101" viewBox="0 0 101 101">
+  <defs>
+    <filter id="Ellipse_42" x="0" y="0" width="101" height="101" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.6"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Groupe_433" data-name="Groupe 433" transform="translate(-16705 -7686)">
+    <g transform="matrix(1, 0, 0, 1, 16705, 7686)" filter="url(#Ellipse_42)">
+      <circle id="Ellipse_42-2" data-name="Ellipse 42" cx="20.5" cy="20.5" r="20.5" transform="translate(30 30)" fill="#f67643"/>
+    </g>
+    <g id="back" transform="translate(16761.822 7747.706) rotate(180)">
+      <g id="Groupe_100" data-name="Groupe 100" transform="translate(0 0)">
+        <path id="Tracé_593" data-name="Tracé 593" d="M2.079,11.2,11.808,1.47A.861.861,0,1,0,10.59.252L.252,10.59a.861.861,0,0,0,0,1.218L10.59,22.146a.861.861,0,0,0,1.218-1.218Z" fill="#ebe1dd"/>
+      </g>
+    </g>
+  </g>
+</svg>

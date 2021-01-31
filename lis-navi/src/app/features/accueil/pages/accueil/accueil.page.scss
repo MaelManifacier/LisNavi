@@ -1,0 +1,51 @@
+.container-svg-accueil {
+  z-index: -2;
+  position: fixed;
+  top: -30px;
+  right: -30px;
+  opacity: .75;
+}
+
+.container-title {
+  margin-top: 9vh;
+  h1 {
+    color: #FEFBF2;
+    font-size: 1.4rem;
+    word-spacing: .2rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+  }
+}
+
+.container-btn-begin {
+  display: flex;
+  justify-content: center;
+
+  .btn-begin {
+    border: 1px solid #FCF3DB;
+    background-color: transparent;
+    padding: 2vh 12vw;
+    position: absolute;
+    bottom: 21vh;
+  }
+}
+
+hr {
+  margin : .6rem 10vw 1rem;
+  border: 0;
+  border-top : 1px solid #FEFBF2;
+}
+
+.container-list-stories {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
+
+.container-moon {
+  z-index: -2;
+  position: fixed;
+  bottom: -10px;
+  left: -60px;
+}

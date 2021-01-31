@@ -1,5 +1,5 @@
 
-<div class="container-card" [routerLink]="['../story', pageCollection?.noPage]">
+<div class="container-card" [routerLink]="['../story', { storyName: 'lis-navi', id: pageCollection?.noPage }]">
   <img class="imagePage" [src]="pageCollection?.image" />
 
   <div *ngIf="pageCollection?.isTitleImg; then image else texte"></div>

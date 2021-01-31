@@ -1,4 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+/* Helpers */
+@import 'styles/helpers/variables';
+/* Global */
+@import 'styles/global/reset';
+
 body {
   background-color: #1F2D3B;
   margin: 0 auto;

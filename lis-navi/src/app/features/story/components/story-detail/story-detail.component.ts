@@ -25,7 +25,7 @@ export class StoryDetailComponent implements OnInit {
     noPage: 1,
     text1: 'Bonjour, je suis Xue. Le 2 Shi\'èr yuè, en plein milieu de l\'hiver, j\'ai dû quitter mon village.',
     text2: '',
-    image1: 'assets/story/1.svg',
+    image1: 'assets/story/lis-navi/1.svg',
     isBackground: false,
     isFlower: false,
     image2: ''
