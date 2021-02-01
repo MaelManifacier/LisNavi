@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1612132494202,
+  "timestamp": 1612165991823,
   "index": "https://maelmanifacier.github.io/LisNavi/index.html",
   "assetGroups": [
     {
@@ -14,13 +14,13 @@
         "https://maelmanifacier.github.io/LisNavi/4.52cda8c69adf775eed2f.js",
         "https://maelmanifacier.github.io/LisNavi/5.ccb9b577ebc86a172fec.js",
         "https://maelmanifacier.github.io/LisNavi/6.0b7eeb7e1f4c811d65cf.js",
-        "https://maelmanifacier.github.io/LisNavi/7.53d7702203d6844c873e.js",
+        "https://maelmanifacier.github.io/LisNavi/7.91357a6f55112bd063e1.js",
         "https://maelmanifacier.github.io/LisNavi/favicon.ico",
         "https://maelmanifacier.github.io/LisNavi/index.html",
         "https://maelmanifacier.github.io/LisNavi/main.03a26febe41a2a12e8b8.js",
         "https://maelmanifacier.github.io/LisNavi/manifest.webmanifest",
         "https://maelmanifacier.github.io/LisNavi/polyfills.8c151b8375e767ff858f.js",
-        "https://maelmanifacier.github.io/LisNavi/runtime.8a5f10943f0512827a56.js",
+        "https://maelmanifacier.github.io/LisNavi/runtime.18722e7552b286de0508.js",
         "https://maelmanifacier.github.io/LisNavi/styles.badcba015d7baf16b0df.css"
       ],
       "patterns": []
@@ -117,7 +117,7 @@
     "https://maelmanifacier.github.io/LisNavi/4.52cda8c69adf775eed2f.js": "650aa54d0fecee33b2d2a0d941c12a33f2b0777c",
     "https://maelmanifacier.github.io/LisNavi/5.ccb9b577ebc86a172fec.js": "f6f60c9d1c3c9aa1cc70e978566f12e4a88e61df",
     "https://maelmanifacier.github.io/LisNavi/6.0b7eeb7e1f4c811d65cf.js": "102769d1433b8d8af8a2599baf66bfb9f77fb884",
-    "https://maelmanifacier.github.io/LisNavi/7.53d7702203d6844c873e.js": "41bfd739cac32b96882c78d98bf69fa94c52ebec",
+    "https://maelmanifacier.github.io/LisNavi/7.91357a6f55112bd063e1.js": "a8b02588937a61f3503c2eaa074b498bcc07ab19",
     "https://maelmanifacier.github.io/LisNavi/OCR-A-regular.f8850ec2eec8bea3a6d2.ttf": "b6e05cff15d96a5bd08fc664cfbdeabbaaedf821",
     "https://maelmanifacier.github.io/LisNavi/assets/fonts/OCR-A-regular.css": "74ede5a87a18b8f8394cb9b7b625cffafd515e06",
     "https://maelmanifacier.github.io/LisNavi/assets/fonts/OCR-A-regular.ttf": "b6e05cff15d96a5bd08fc664cfbdeabbaaedf821",
@@ -193,11 +193,11 @@
     "https://maelmanifacier.github.io/LisNavi/assets/titre-lis-navi.svg": "563c54f89cd192c518a889f4d776d197b0ba954b",
     "https://maelmanifacier.github.io/LisNavi/assets/titre.svg": "6e0b17a02170f4ce2a0748ce60392ae23cd7ab5c",
     "https://maelmanifacier.github.io/LisNavi/favicon.ico": "40ac5ee3ba58e3903f0cf3030d25e6bd3c7ea859",
-    "https://maelmanifacier.github.io/LisNavi/index.html": "d03454bc923f2a8350dc248c8a3c71de26729805",
+    "https://maelmanifacier.github.io/LisNavi/index.html": "ec1e66a2e38c164c0b5d27db6ada5b1a4e0040ac",
     "https://maelmanifacier.github.io/LisNavi/main.03a26febe41a2a12e8b8.js": "1cbc856677d0a09672959eaecc4a8ab31dcc1c92",
     "https://maelmanifacier.github.io/LisNavi/manifest.webmanifest": "46a3cc27e43c9ad01becb7d6f5014e43cdaf013e",
     "https://maelmanifacier.github.io/LisNavi/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
-    "https://maelmanifacier.github.io/LisNavi/runtime.8a5f10943f0512827a56.js": "2a153a807e74c18b651a6926c2d10ca06c117eca",
+    "https://maelmanifacier.github.io/LisNavi/runtime.18722e7552b286de0508.js": "82b6239d6e4b7a59b2405c5129d6d6cbe9d6791f",
     "https://maelmanifacier.github.io/LisNavi/sitka-small.ca7897cad0b1c3fb6f7b.ttf": "9d3235dcc9e2cfaf441ef1d766e55302727c5f62",
     "https://maelmanifacier.github.io/LisNavi/styles.badcba015d7baf16b0df.css": "768b7c6f180fbc765a61730ac9bf5a428dcc918f"
   },
