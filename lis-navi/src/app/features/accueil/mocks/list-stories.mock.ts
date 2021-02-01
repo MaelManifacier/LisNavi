@@ -11,4 +11,9 @@ export const LISTSTORIES : StoryCard[] = [
     url: 'graph',
     img: 'assets/imgCardStories/graph.jpg',
   },
+  {
+    title: 'Nuit d\'étoiles',
+    url: 'nuit-d-etoiles',
+    img: 'assets/imgCardStories/nuit-d-etoiles.png',
+  },
 ]

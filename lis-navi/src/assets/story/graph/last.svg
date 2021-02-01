@@ -3,7 +3,7 @@
     <filter id="Ellipse_41" x="0" y="0" width="101" height="101" filterUnits="userSpaceOnUse">
       <feOffset input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="10" result="blur"/>
-      <feFlood flood-opacity="0.6"/>
+      <feFlood flood-opacity="0"/>
       <feComposite operator="in" in2="blur"/>
       <feComposite in="SourceGraphic"/>
     </filter>

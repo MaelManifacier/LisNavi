@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, ParamMap, Router } from '@angular/router';
 import { PAGESGRAPH } from '../../mocks/pages-graph.mock';
 import { PAGESLISNAVI } from '../../mocks/pages-lis-navi.mock';
+import { PAGESNUITDETOILES } from '../../mocks/pages-nuit-d-etoiles.mock';
 import { Story } from '../../model/story.model';
 
 @Component({
@@ -35,6 +36,9 @@ export class StoryPage implements OnInit {
         break;
       case 'graph':
         this.story = PAGESGRAPH;
+        break;
+      case 'nuit-d-etoiles':
+        this.story = PAGESNUITDETOILES;
         break;
     }
   }
