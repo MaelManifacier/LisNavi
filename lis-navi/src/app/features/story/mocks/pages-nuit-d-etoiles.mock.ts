@@ -9,8 +9,7 @@ export const PAGESNUITDETOILES : Story = {
   pages: [
     {
       noPage: 1,
-      text1: `Nuit d’étoiles, au bord de l’océan. <br/>
-      Accoudé à la rambarde de ma terrasse, je regarde le soleil passer sous l’horizon. <br/>
+      text1: `Accoudé à la rambarde de ma terrasse, je regarde le soleil passer sous l’horizon. <br/>
       De rouge à orangé, les tons deviennent plus froids et la nuit prend la terre sous son aile.
       <br/><br/>
       Des cabanes en contrebas, invisibles dans la végétation, monte le bruit de rires et le tintement de couverts.<br/>
@@ -31,7 +30,7 @@ export const PAGESNUITDETOILES : Story = {
     {
       noPage: 2,
       text1: `22:00<br/><br/>
-      Je me sens partir.<br/>
+      J’entends le ressac lointain de l’océan. Je somnole.<br/>
       Un mouvement, près de la rivière, attire mon attention.<br/>
       Là, sur les pierres qui entourent le torrent, la souple silhouette d’un renard argenté se découpe sur un fond de lune.<br/>
       J’en reste pétrifié. Je n’en avais jamais vu de semblable.<br/>
@@ -56,6 +55,7 @@ export const PAGESNUITDETOILES : Story = {
       <br/><br/>
       Dans un sifflement cristallin, l’une d’elles fuse vers le sol.<br/>
       Je la vois se dessiner nettement. Une minuscule boule en fusion entourée d’un halo bleuté.
+      Elle est beaucoup plus proche que les autres.
       <br/><br/>
       Au moment où elle touche le sol, je ressens comme une onde. Ma vision se brouille.
       <br/><br/>
@@ -117,8 +117,7 @@ export const PAGESNUITDETOILES : Story = {
       Je ne trouve pas de sujets.
       <br/><br/>
       <br/><br/>
-      Je sors à grands pas et enjambe le muret qui entoure le jardin.<br/>
-      Je me laisse tomber de l’autre côté.`,
+      Je sors à grands pas et enjambe le muret qui entoure le jardin.`,
       image1: 'assets/story/nuit-d-etoiles/2-27.svg',
       isBackground: false,
       isFlower: false,
@@ -180,7 +179,7 @@ export const PAGESNUITDETOILES : Story = {
     },
     {
       noPage: 10,
-      text1: `Alors, j’ai de nouveau l’impression de ne pas être seul.<br/>
+      text1: `Alors, j’ai de nouveau l’impression que des personnes m'entourent.<br/>
       Une forme sombre passe en courant à l’orée du bois.<br/>
       Elle s’arrête entre deux arbres et montre ses crocs luisants.
       <br/><br/>
@@ -241,8 +240,7 @@ export const PAGESNUITDETOILES : Story = {
     },
     {
       noPage: 12,
-      text1: `6:47<br/><br/>
-      Le soleil se lève.<br/>
+      text1: `Le soleil se lève.<br/>
       Je suis allongé dans une clairière, au bord de la rivière.<br/>
       Mon corps est courbaturé, je me redresse difficilement.<br/>
       La brume descend des collines et coule entre les arbres en direction de la mer.<br/>

@@ -1,4 +1,4 @@
-import { StoryCard } from "../model/story-card.model";
+import { StoryCard } from '../model/story-card.model';
 
 export const LISTSTORIES : StoryCard[] = [
   {
@@ -16,4 +16,9 @@ export const LISTSTORIES : StoryCard[] = [
     url: 'nuit-d-etoiles',
     img: 'assets/imgCardStories/nuit-d-etoiles.png',
   },
-]
+  {
+    title: 'Iro',
+    url: 'iro',
+    img: 'assets/imgCardStories/iro.jpg',
+  },
+];
