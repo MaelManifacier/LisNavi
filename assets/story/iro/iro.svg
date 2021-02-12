@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110" height="110" viewBox="0 0 110 110">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.836" y1="0.164" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f7ab3f"/>
+      <stop offset="1" stop-color="#d6323f"/>
+    </linearGradient>
+    <filter id="Ellipse_32" x="0" y="0" width="110" height="110" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#fdf7e6" flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Groupe_80" data-name="Groupe 80" transform="translate(29.74 28.868)">
+    <path id="Tracé_260" data-name="Tracé 260" d="M.555-13.135a2.255,2.255,0,0,1,.333.282c.36.348.55.45.55.78a2.085,2.085,0,0,1-.353.955.843.843,0,0,1-.6.23C.213-10.942,0-11.5,0-11.992S.062-13.107.555-13.135Z" transform="translate(5.502 50.509)" fill="#b9403e"/>
+    <g transform="matrix(1, 0, 0, 1, -29.74, -28.87)" filter="url(#Ellipse_32)">
+      <circle id="Ellipse_32-2" data-name="Ellipse 32" cx="25" cy="25" r="25" transform="translate(30 30)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="Tracé_262" data-name="Tracé 262" d="M.555,0A2.255,2.255,0,0,1,.888.282c.36.348.55.45.55.78a2.085,2.085,0,0,1-.353.955.843.843,0,0,1-.6.23C.213,2.193,0,1.633,0,1.143S.062.028.555,0Z" transform="translate(14.857 38.602) rotate(71)" fill="#fffefa"/>
+    <path id="Tracé_263" data-name="Tracé 263" d="M.287,0A1.166,1.166,0,0,1,.453.145c.185.18.283.232.283.4a1.073,1.073,0,0,1-.18.49.433.433,0,0,1-.31.118C.11,1.128,0,.833,0,.588S.032.015.287,0Z" transform="translate(12.235 48.343) rotate(-23.003)" fill="#fffefa"/>
+    <path id="Tracé_264" data-name="Tracé 264" d="M.555,0A2.255,2.255,0,0,1,.888.282c.36.348.55.45.55.78a2.085,2.085,0,0,1-.353.955.843.843,0,0,1-.6.23C.213,2.193,0,1.633,0,1.143S.062.028.555,0Z" transform="matrix(0.53, -0.848, 0.848, 0.53, 2.746, 46.409)" fill="#fffefa"/>
+    <path id="Tracé_265" data-name="Tracé 265" d="M.555,0A2.255,2.255,0,0,1,.888.282c.36.348.55.45.55.78a2.085,2.085,0,0,1-.353.955.843.843,0,0,1-.6.23C.213,2.193,0,1.633,0,1.143S.062.028.555,0Z" transform="matrix(0.766, 0.643, -0.643, 0.766, 20.183, 30.161)" fill="#fffefa"/>
+    <path id="Tracé_266" data-name="Tracé 266" d="M.378,0A1.536,1.536,0,0,1,.6.192C.848.428.978.5.978.723a1.421,1.421,0,0,1-.242.65.575.575,0,0,1-.4.158C.145,1.5,0,1.113,0,.78S.042.02.378,0Z" transform="translate(16.589 46.419) rotate(-4.012)" fill="#fffefa"/>
+    <path id="Tracé_267" data-name="Tracé 267" d="M.347,0a1.4,1.4,0,0,1,.2.167c.223.225.342.288.342.5a1.3,1.3,0,0,1-.227.588A.525.525,0,0,1,.3,1.4C.133,1.366,0,1.016,0,.712S.038.018.347,0Z" transform="matrix(-0.616, -0.788, 0.788, -0.616, 8.25, 46.029)" fill="#fffefa"/>
+    <path id="Tracé_268" data-name="Tracé 268" d="M.555-13.135a2.255,2.255,0,0,1,.333.282c.36.348.55.45.55.78a2.085,2.085,0,0,1-.353.955.843.843,0,0,1-.6.23C.213-10.942,0-11.5,0-11.992S.062-13.107.555-13.135Z" transform="translate(2.801 47.173)" fill="#fffefa"/>
+    <path id="Tracé_269" data-name="Tracé 269" d="M.443,0A1.8,1.8,0,0,1,.708.225C1,.5,1.146.583,1.146.848a1.666,1.666,0,0,1-.283.762.667.667,0,0,1-.48.185C.167,1.753,0,1.3,0,.913S.05.023.443,0Z" transform="translate(11.763 35.691) rotate(71)" fill="#fffefa"/>
+  </g>
+</svg>
