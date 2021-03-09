@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1615324998512,
+  "timestamp": 1615325191305,
   "index": "https://maelmanifacier.github.io/LisNavi/index.html",
   "assetGroups": [
     {
@@ -195,10 +195,10 @@
     "https://maelmanifacier.github.io/LisNavi/assets/story/lis-navi/moon-light.svg": "83cc34be510148cd13cdc97c60dfe121015d7b6a",
     "https://maelmanifacier.github.io/LisNavi/assets/story/lis-navi/next.svg": "50faff8fe3712027a68468f6d085cfcaa1083355",
     "https://maelmanifacier.github.io/LisNavi/assets/story/nuit-d-etoiles/1-15.svg": "284a74228f5f2f58dc09cbbe7e0c2a2a3c928fe7",
-    "https://maelmanifacier.github.io/LisNavi/assets/story/nuit-d-etoiles/2-27.svg": "2bcee6c42a7f099d0c634558d43844ea3eff961c",
+    "https://maelmanifacier.github.io/LisNavi/assets/story/nuit-d-etoiles/2-27.svg": "ff27c5f99d0feea1a4f790afddf173f0003b47a0",
     "https://maelmanifacier.github.io/LisNavi/assets/story/nuit-d-etoiles/23-57.svg": "cf699a52544102d18b5a624f060a4667fbd4e6e5",
-    "https://maelmanifacier.github.io/LisNavi/assets/story/nuit-d-etoiles/4-04.svg": "20ed21a28aa880305fcaf0b823b0d04ba2d23e8d",
-    "https://maelmanifacier.github.io/LisNavi/assets/story/nuit-d-etoiles/6-47.svg": "205921db1e1672a3dd96bba4c267fd44c1bcc7bc",
+    "https://maelmanifacier.github.io/LisNavi/assets/story/nuit-d-etoiles/4-04.svg": "033665c0dee1ee373d5d0c0c385d4d399ea56e8a",
+    "https://maelmanifacier.github.io/LisNavi/assets/story/nuit-d-etoiles/6-47.svg": "127ba6bc7b29573109d3365c0578138ac459315b",
     "https://maelmanifacier.github.io/LisNavi/assets/story/nuit-d-etoiles/etoiles.svg": "aeb25b455a6513e256e15a9602030591e417b190",
     "https://maelmanifacier.github.io/LisNavi/assets/story/nuit-d-etoiles/lampion.svg": "57827a3529a107817119618eb0d9b2770e4d50cb",
     "https://maelmanifacier.github.io/LisNavi/assets/story/nuit-d-etoiles/last.svg": "790b8b37ba3cc4500a7c649fe350e3dbe793fc2b",
