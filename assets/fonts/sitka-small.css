@@ -1,6 +1,8 @@
 @font-face {
-  font-family: 'Sitka Small';
+  font-family: 'SitkaSmall';
   font-style: normal;
   font-weight: normal;
-  src: url('sitka-small.ttf') format('truetype');
+  src: url('sitka-small.woff2') format('woff2'),
+        url('sitka-small.woff') format('woff'),
+        url('sitka-small.ttf') format('truetype');
 }
