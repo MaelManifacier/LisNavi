@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65.76" height="65.76" viewBox="0 0 65.76 65.76">
+  <defs>
+    <filter id="Polygone_48" x="0" y="0" width="65.76" height="65.76" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#fffbfc" flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Polygone_48)">
+    <path id="Polygone_48-2" data-name="Polygone 48" d="M3.159,2.585a.908.908,0,0,1,1.723,0h0a.908.908,0,0,0,.574.574h0a.908.908,0,0,1,0,1.723h0a.908.908,0,0,0-.574.574h0a.908.908,0,0,1-1.723,0h0a.908.908,0,0,0-.574-.574h0a.908.908,0,0,1,0-1.723h0a.908.908,0,0,0,.574-.574Z" transform="matrix(-0.8, 0.6, -0.6, -0.8, 38.51, 33.67)" fill="#fffbfc"/>
+  </g>
+</svg>
