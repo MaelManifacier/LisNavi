@@ -32,18 +32,20 @@ export const PAGESIRO: Story = {
       `,
       text2: `-	Voilà. Maintenant, imagine, au plus profond de la forêt, un petit œuf.<br/>
       Comme ça.<br/>
-      En plein cœur de la forêt, j’ajoute à côté de mon premier dessin un petit œuf d’ébène.
+      En plein cœur de la forêt, j’ajoute à côté de mon premier dessin un ovale couleur ébène.
       <br/><br/>
       -	Eh bien, cet œuf, c'est Iro.<br/>
       Bon, là, on pourrait encore le regarder un long moment.<br/>
-      Avançons un peu dans le temps.<br/>
+      Avançons un peu dans le temps.
+      <br/><br/>
       J’ajoute des traits sur la coquille.
       <br/><br/>
-      -	La coquille se fend !<br/>
+      -	Regarde, la coquille se fend !<br/>
       Il se faufile pour sortir et secoue ses ailes minuscules encore toutes froissées.<br/>
       Tu vois ses ailes et sa queue ?<br/>
       Elles forment des feuilles, d’un vert tendre, comme de jeunes pousses.<br/>
-      C’est un dragon de la forêt. Il est là pour veiller sur elle, alors, dans sa grande générosité, elle lui a offert une partie d’elle, les feuilles pour lui permettre de voler et nager, et le pouvoir de la défendre.<br/>
+      C’est un dragon de la forêt. Il est là pour veiller sur elle.<br/>
+      Alors, dans sa grande générosité, elle lui a offert ses feuilles pour lui permettre de voler et nager, et le pouvoir de la défendre.<br/>
       Le pouvoir de chaque dragon dépend de ce sur quoi il veille.<br/>
       <br/><br/>
       Un bruit m’interrompt.
@@ -62,7 +64,7 @@ export const PAGESIRO: Story = {
       Il est étrange, ses cheveux sont aussi noirs que les miens, mais ses yeux ont la couleur de noisettes.<br/>
       Il me détaille aussi. Il n’a pas l’air de vouloir parler. Il me regarde fixement, la bouche entrouverte. Je m’impatiente.<br/>
       -	Bonjour. Vous avez besoin de quelque chose ?<br/>
-      -	Euh bonjour. Je suis désolé, je vous cherchais. Enfin, grand-mère m’a envoyé vous chercher, elle dit qu’elle cherche une fille qui est arrivée très récemment dans le village. Elle… Elle voudrait vous parler.
+      -	Euh bonjour. Je suis désolé, je vous cherchais. Enfin, grand-mère m’a envoyé vous chercher, elle dit qu'elle veut trouver la jeune fille qui est arrivée très récemment dans le village. Elle… Elle voudrait vous parler.
       <br/><br/>
       Sa prononciation est approximative, je ne comprends pas tout.<br/>
       -	Vous me cherchez, moi ?<br/>
@@ -97,7 +99,7 @@ export const PAGESIRO: Story = {
       `,
       text2: `Les bois sont vernis, l’intérieur est bien meublé.<br/>
       La dame est assise dans un coin. J’incline la tête dans sa direction.<br/>
-      -	Vous m’avez fait demander ?<br/>
+      -	Madame, vous m’avez fait demander ?<br/>
       Elle s’étire pour me distinguer, je fais quelques pas vers elle.<br/>
       -	Vous êtes Xue ? Oui, c’est vous. Je ne vous voie pas bien, mais je le sais.<br/>
       Sa voix est chevrotante mais on y sent de l’affirmation, une certaine force.<br/>
@@ -119,7 +121,7 @@ export const PAGESIRO: Story = {
       -	Vous êtes une jeune fille bien rebelle ! Son ton est faussement accusateur, elle sourit sous ses rides. Et que dessines-tu ?<br/>
       -	Des arbres, des fleurs, des maisons quelquefois.<br/>
       -	Et ? fait-elle simplement.<br/>
-      -	Des créatures qui n’existent pas Madame.<br/>
+      -	Des créatures qui n’existent pas, Madame.<br/>
       Elle rit.
       <br/><br/>
       -	Tu es mon portrait, petite.<br/>
@@ -135,11 +137,11 @@ export const PAGESIRO: Story = {
       Que tes yeux soient ensommeillés ou ta foi en toi au plus bas, retrouve le Báihǔ, il est le gardien du passage. Il te guidera. »
       <br/><br/>
       -	Madame, je ne suis pas sûre de comprendre…<br/>
-      Elle ne dit rien.
+      Elle n'ajoute rien.
       <br/><br/>
-      -	Et… Hum, madame, le… le garçon. Qui est-ce ?<br/>
+      -	Hum, madame, le… le garçon. Qui est-ce ?<br/>
       -	Celui que j’ai envoyé te chercher ? Son nom est Liang. L’as-tu trouvé étrange ? C’est mon petit-fils. Son père n’est pas du village, c’était un voyageur. Il est reparti maintenant.<br/>
-      Elle dit cela en me scrutant. J’aimerais m’excuser. Je baisse la tête. Je n’ai pas à remarquer son visage ou ses yeux.<br/>
+      Elle dit cela en me scrutant. J’aimerais m’excuser. Je baisse la tête. Je n'avais pas à remarquer ses yeux ou son visage.<br/>
       Elle a compris et hoche la tête.<br/>
       -	Va maintenant, rentre chez toi. Cette nuit ne sera pas une nuit comme les autres.
       `,
@@ -166,16 +168,18 @@ export const PAGESIRO: Story = {
       Je cours maintenant, en plein milieu des rues. Je ne sais déjà plus où je suis.
       `,
       text2: `La bête rôde.<br/>
-      J’aperçois la rivière au bout de la rue et cours vers elle. Le bruit de mes pas résonne entre les murs de bois.<br/>
+      J’aperçois la rivière au bout du passage et cours vers elle. Le bruit de mes pas résonne entre les murs de bois.<br/>
       Au dernier moment, je tourne dans une rue parallèle et me retrouve sur la place, face au païfang. Je m’arrête.<br/>
       Sous mes yeux, on dirait le dessin de la vieille dame.<br/>
       La lune est haute, pleine, et d’un rouge opalin hypnotisant.<br/>
       <br/><br/>
       Je regarde derrière moi, espérant de tout mon coeur.<br/>
-      Le tigre est là, de nouveau assis.<br/>
+      Mais le tigre est là, de nouveau assis.<br/>
+      Il faut que je fuie. Ma rue n'est plus très loin, de l'autre côté de la place.<br/>
+      Pour couper au plus court, je m'élance au milieu de la place.<br/>
       En deux pas, je suis sous la porte. Comme au ralenti, son ombre m’entoure et elle passe au-dessus de moi.
       `,
-      image1: '',
+      image1: 'assets/story/iro/paifang.jpg',
       isBackground: false,
       isFlower: false,
       image2: ''
@@ -186,7 +190,7 @@ export const PAGESIRO: Story = {
       <br/><br/>
       Un froid étrange fuse de ma poitrine et de mon front et rayonne dans tout mon corps.
       <br/><br/>
-      Je me reprends et fais un pas pour ne pas m’étaler de tout mon long.<br/>
+      Je me reprends et fais un pas en avant pour ne pas m’étaler de tout mon long.<br/>
       Essoufflée et stoppée par la sensation que je viens d’avoir, je reste là, les mains sur les genoux.
       <br/><br/>
       Un ronronnement me fait sursauter. Un chat se frotte contre mes jambes.<br/>
@@ -197,7 +201,7 @@ export const PAGESIRO: Story = {
       `,
       text2: `Je descends les marches qui mènent à l’eau.<br/>
       Le chat me suit. Curieux et désintéressé.<br/>
-      Avant de passer le bras d’eau, je lui tends les bras et il s’y réfugie.<br/>
+      Avant de passer le cours d’eau, je lui tends les bras et il s’y réfugie.<br/>
       En relevant les yeux, je tombe de nouveau en arrêt.<br/>
       La bête tigrée se dresse sur le pont.<br/>
       “Oh, tu es là toi.”<br/>
@@ -217,14 +221,14 @@ export const PAGESIRO: Story = {
       text1: `Une feuille pousse sur la rivière.<br/>
       Elle flotte comme un nénuphar.
       <br/><br/>
-      Ils me regardent tous.<br/>
+      Les deux bêtes me regardent.<br/>
       Alors, je tends la main et la soulève délicatement.<br/>
       C’est une feuille d’acer griseum, l’érable à écorce de papier.<br/>
       Une feuille au bout de laquelle un petit dragon aux ailes écarlates sommeille.<br/>
       Je la soulève délicatement et pose la petite chose dans ma main.
       <br/><br/>
       Il est magnifique.<br/>
-      J’en reste hébétée, les mains formant une coupelle dans laquelle il se tortille.
+      J’en reste hébétée, mes paumes formant une coupelle dans laquelle il se tortille.
       <br/><br/>
       Le tigre se tient à côté de moi dans sa robe resplendissante.<br/>
       Beaucoup sont venus assister à la naissance du dragon. De l’autre côté de la rivière, un renard aux pupilles d’or nous observe. Des oiseaux de toutes sortes sont perchés dans les arbres et sur les rebords de toits, et j’entends des bêtes courir et ramper sur les dalles de pierres et les lattes de bois.<br/>
@@ -287,7 +291,7 @@ export const PAGESIRO: Story = {
       -	Bon retour parmi les mortels, fait-il de sa voix si particulière. Grand-mère m’a demandé d’aller voir chez toi si tu étais bien rentrée.<br/>
       Il me tend une main que j’accepte. Je me relève et m’étire.<br/>
       <br/>
-      Je ne sais pas ce qui s’est passé. Mais la lune confidente, paraît garder le secret.
+      Je ne sais pas ce qui s’est passé. Mais la lune, confidente, paraît garder un secret.
       `,
       text2: ``,
       image1: '',

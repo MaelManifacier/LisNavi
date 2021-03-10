@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="108.698" height="80.073" viewBox="0 0 108.698 80.073">
+  <defs>
+    <filter id="Tracé_649" x="0" y="5.948" width="104.205" height="74.125" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#fffbfc" flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Polygone_67" x="44.207" y="0" width="64.491" height="64.491" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-2"/>
+      <feFlood flood-color="#fffbfc" flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Groupe_548" data-name="Groupe 548" transform="translate(-745.731 -2113.043)">
+    <g transform="matrix(1, 0, 0, 1, 745.73, 2113.04)" filter="url(#Tracé_649)">
+      <path id="Tracé_649-2" data-name="Tracé 649" d="M6609.88-2044.44a22.467,22.467,0,0,1,6.534-2.97,21,21,0,0,1,8.866-.685c3.381.365,5.881,1.1,10.868,1.486s6.364.382,10.763-.54,6.444-3.148,6.831-3.148-2.79,1.892-7.188,2.614a34.017,34.017,0,0,1-10.692.274c-4.649-.4-6.964-1.512-9.98-1.878s-5.629-.839-9.787.748A15.734,15.734,0,0,0,6609.88-2044.44Z" transform="translate(-6067.24 3318.19) rotate(-11)" fill="#fffbfc"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 745.73, 2113.04)" filter="url(#Polygone_67)">
+      <path id="Polygone_67-2" data-name="Polygone 67" d="M2.91,2.381a.837.837,0,0,1,1.587,0h0a.837.837,0,0,0,.529.529h0a.837.837,0,0,1,0,1.587h0a.837.837,0,0,0-.529.529h0a.837.837,0,0,1-1.587,0h0A.837.837,0,0,0,2.381,4.5h0a.837.837,0,0,1,0-1.587h0a.837.837,0,0,0,.529-.529Z" transform="matrix(0.98, -0.21, 0.21, 0.98, 72.06, 29.39)" fill="#fffbfc"/>
+    </g>
+  </g>
+</svg>

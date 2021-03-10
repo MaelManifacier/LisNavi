@@ -3,7 +3,14 @@
   position: fixed;
   top: -30px;
   right: -30px;
+  height: 100%;
+  width: 100%;
   opacity: .75;
+
+  img {
+    animation: tinkle 1s cubic-bezier(0.14, 0.27, 0.82, 0.88) infinite;
+    -webkit-animation: tinkle 1s cubic-bezier(0.14, 0.27, 0.82, 0.88) infinite;
+  }
 }
 
 .container-title {
@@ -14,6 +21,7 @@
     word-spacing: .2rem;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    // font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
   }
 }
@@ -47,6 +55,50 @@ hr {
 .container-moon {
   z-index: -2;
   position: fixed;
-  bottom: -10px;
+  bottom: 10vh;
   left: -60px;
+  img {
+    animation: glitter 6s cubic-bezier(0.14, 0.27, 0.82, 0.88) infinite;
+    -webkit-animation: glitter 6s cubic-bezier(0.14, 0.27, 0.82, 0.88) infinite;
+    -webkit-filter: drop-shadow(0 0 42px rgba(255,255,255, .8));
+    filter: drop-shadow(0 0 42px rgba(255,255,255, .8));
+  }
+}
+
+.etoile {
+  background: url('/assets/svg-small-etoile.svg') no-repeat;
+  position: absolute;
+  width: 10vh;
+  height: 10vh;
+}
+
+@keyframes glitter {
+  0%, 100% {
+    opacity: 1;
+  }
+  45%, 55% {
+    opacity: 0.8;
+    -webkit-filter: drop-shadow(0 0 24px rgba(255,255,255, .8));
+    filter: drop-shadow(0 0 24px rgba(255,255,255, .8));
+  }
+}
+
+@keyframes tinkle {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+    -webkit-filter: drop-shadow(0 0 24px rgba(255,255,255, .8));
+    filter: drop-shadow(0 0 24px rgba(255,255,255, .8));
+  }
+}
+
+@-webkit-keyframes glitter {
+  0%, 100% {
+    opacity: 1;
+  }
+  45%, 55% {
+    opacity: 0.8;
+  }
 }
