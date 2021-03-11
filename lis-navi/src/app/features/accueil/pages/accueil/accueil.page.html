@@ -1,11 +1,13 @@
-<div>
+<div class="page">
 
   <div class="container-svg-accueil">
     <!--<img title="Accueil" src="assets/svg-accueil.svg" />-->
   </div>
 
-  <div *ngFor="let star of stars">
-    <span class="star" [class]="star.size" [style]="'left :'+star.left+'; top: '+star.top+'; animation-duration:'+star.transition"></span> <!-- [ngStyle]="getStyle(star)" -->
+  <div class="container-stars">
+    <div *ngFor="let star of stars">
+      <span class="star" [class]="star.size" [style]="'left :'+star.left+'; top: '+star.top+'; animation-duration:'+star.transition"></span> <!-- [ngStyle]="getStyle(star)" -->
+    </div>
   </div>
 
   <div class="container-title">
