@@ -51,7 +51,7 @@ hr {
 }
 
 .container-list-stories {
-  z-index: 4;
+  z-index: 10;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -59,7 +59,7 @@ hr {
 }
 
 .container-moon {
-  z-index: -2;
+  z-index: -1;
   position: fixed;
   bottom: 18vh;
   left: -60px;
@@ -79,9 +79,10 @@ hr {
 }
 
 .container-stars {
+  z-index: -1;
   position: fixed;
   bottom: 0px;
-  right: 0px;
+  right: 20vw;
   animation: starsRotate 240s linear infinite;
   transform-origin: bottom right 0px;
 }
