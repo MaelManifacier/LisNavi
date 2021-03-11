@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="407.135" height="419.1" viewBox="0 0 407.135 419.1">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="405.543" height="419.1" viewBox="0 0 405.543 419.1">
   <defs>
     <radialGradient id="radial-gradient" cx="0.57" cy="0.5" r="0.53" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#2a3a4a"/>
-      <stop offset="0.552" stop-color="#2a3a4a" stop-opacity="0.902"/>
-      <stop offset="1" stop-color="#2a3a4a" stop-opacity="0.102"/>
+      <stop offset="0.552" stop-color="#2b3b4a"/>
+      <stop offset="1" stop-color="#1f2d3b"/>
     </radialGradient>
     <radialGradient id="radial-gradient-2" cx="0.358" cy="0.5" r="0.629" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#fffefa"/>
@@ -19,9 +19,9 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="moon" transform="translate(42.864 32.766)">
+  <g id="moon" transform="translate(41.272 24.573)">
     <path id="Tracé_803" data-name="Tracé 803" d="M146.5,0A146.5,146.5,0,1,1,0,146.5,146.5,146.5,0,0,1,146.5,0Z" transform="translate(-11.271 89.198) rotate(-20)" fill="url(#radial-gradient)"/>
-    <g transform="matrix(1, 0, 0, 1, -42.86, -32.77)" filter="url(#Tracé_804)">
+    <g transform="matrix(1, 0, 0, 1, -41.27, -24.57)" filter="url(#Tracé_804)">
       <path id="Tracé_804-2" data-name="Tracé 804" d="M146.5,0c70.506-5.329,96.883,73.25,96.883,146.5S218.809,298.842,146.5,293a146.5,146.5,0,0,1,0-293Z" transform="translate(30.09 113.48) rotate(-20)" fill="url(#radial-gradient-2)"/>
     </g>
     <g id="Groupe_547" data-name="Groupe 547" transform="translate(61.742 216.298)">
