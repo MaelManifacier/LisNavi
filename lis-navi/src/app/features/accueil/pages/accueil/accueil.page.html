@@ -2,9 +2,10 @@
 
   <div class="container-svg-accueil">
     <!--<img title="Accueil" src="assets/svg-accueil.svg" />-->
-    <div *ngFor="let star of stars">
-      <span class="etoile" [ngStyle]="getStyle(star)" ></span>
-    </div>
+  </div>
+
+  <div *ngFor="let star of stars">
+    <span class="star" [class]="star.size" [style]="'left :'+star.left+'; top: '+star.top+'; animation-duration:'+star.transition"></span> <!-- [ngStyle]="getStyle(star)" -->
   </div>
 
   <div class="container-title">
@@ -26,6 +27,10 @@
 
   <div class="container-moon">
     <img title="Moon" width="300" height="300" src="assets/moon.svg" />
+  </div>
+
+  <div class="container-fox">
+    <img src="assets/fox-color.svg" alt="Fox" width="150" height="150">
   </div>
 
 </div>

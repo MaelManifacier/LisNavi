@@ -10,27 +10,34 @@ export class AccueilPage implements OnInit {
 
   listStories : StoryCard[] = LISTSTORIES;
 
-  stars?: [string, string, string];
+  stars?: Star[] = [];
 
   constructor() { }
 
   ngOnInit(): void {
-    this.stars = ['starx1', '1vh', '2vw'];
-    for(let i = 0; i < 200; i++) {
-      this.stars.push('starx1', `${i}vh`, `${i}vw`);
+    this.stars?.push(new Star('etoile-filante', `1vh`, `10vw`, '0', '0'));
+    for(let i = 0; i < 150; i++) {
+      this.stars?.push(new Star('starx1', `${Math.floor(Math.random() * 100)}vh`, `${i}vw`, '0', '0'));
+    }
+    for(let i = 0; i < 20; i++) {
+      this.stars?.push(new Star('starx2', `${Math.floor(Math.random() * 100)}vh`, `${Math.floor(Math.random() * 100)}vw`, '0', '0'));
     }
   }
 
-  getStyle(star: any) {
-    let loCardStyle = {};
-    loCardStyle = {
-      'border-left-color' : '#E85849'
-    };
-    loCardStyle = {
-      'left': Math.floor(Math.random() * 100) //star[1]
-      , 'top': star[2]
-    };
-    return loCardStyle;
-  }
+}
 
+export class Star {
+  size: string;
+  top: string;
+  left: string;
+  transition: string;
+  rotation: string;
+
+  constructor(size: string, top: string, left: string, transition: string, rotation: string) {
+    this.size = size;
+    this.top = top;
+    this.left = left;
+    this.transition = transition;
+    this.rotation = rotation;
+  }
 }

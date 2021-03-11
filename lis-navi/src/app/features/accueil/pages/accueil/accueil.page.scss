@@ -65,11 +65,34 @@ hr {
   }
 }
 
-.etoile {
-  background: url('/assets/svg-small-etoile.svg') no-repeat;
-  position: absolute;
+.container-fox {
+  position: fixed;
+  bottom: -2vh;
+  right: 0vw;
+  opacity: .8;
+}
+
+.star {
+  z-index: -4;
+  position: fixed;
   width: 10vh;
   height: 10vh;
+  img {
+    animation: tinkle 1s cubic-bezier(0.14, 0.27, 0.82, 0.88) infinite;
+    -webkit-animation: tinkle 1s cubic-bezier(0.14, 0.27, 0.82, 0.88) infinite;
+  }
+}
+
+.starx1 {
+  background: url('assets/svg-small-etoile.svg') no-repeat;
+}
+
+.starx2 {
+  background: url('assets/svg-big-etoile.svg') no-repeat;
+}
+
+.etoile-filante {
+  background: url('assets/svg-etoile-filante.svg') no-repeat;
 }
 
 @keyframes glitter {
