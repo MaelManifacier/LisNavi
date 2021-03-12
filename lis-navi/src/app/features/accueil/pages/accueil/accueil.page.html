@@ -12,7 +12,8 @@
 
   <div class="container-title">
     <!--<img src="assets/titre.svg" />-->
-    <h1>I <span style="color: #77EEF6;">BELIEVE </span>IN <span style="color: #70FF74;">ADVENTURE</span></h1>
+    <!--<h1>I <span style="color: #77EEF6;">believe </span>in <span style="color: #70FF74;">adventure</span></h1>-->
+    <h1>I believe in adventure</h1>
   </div>
 
   <hr/>
@@ -28,11 +29,13 @@
   -->
 
   <div class="container-moon">
-    <img title="Moon" width="260" height="260" src="assets/moon.svg" />
+    <img title="Moon" width="230" height="230" src="assets/moon.svg" />
   </div>
 
-  <div class="container-fox">
-    <img src="assets/fox-color.svg" title="Fox" width="150" height="150">
+  <div class="container-fox" [ngSwitch]="moonPhase">
+    <img *ngSwitchCase="0" src="assets/black-fox.svg" title="Fox" width="150" height="150">
+    <img *ngSwitchCase="4" src="assets/fox-shadow.svg" title="Fox" width="150" height="150">
+    <img *ngSwitchDefault src="assets/fox-color.svg" title="Fox" width="150" height="150">
   </div>
 
 </div>

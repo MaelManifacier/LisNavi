@@ -11,10 +11,15 @@ export class AccueilPage implements OnInit {
   listStories : StoryCard[] = LISTSTORIES;
 
   stars?: Star[] = [];
+  moonPhase = 1;
 
   constructor() { }
 
   ngOnInit(): void {
+    const date = new Date();
+    // this.getMoonPhase(date.getFullYear(), date.getMonth(), date.getDay())
+    this.moonPhase = this.getMoonPhase(date.getFullYear(), date.getMonth(), date.getDay());
+
     this.stars?.push(new Star('etoile-filante', `1vh`, `10vw`, '0', '0'));
     let angle = Math.random() * Math.PI * 2;
     const radius = 15000;
@@ -30,7 +35,40 @@ export class AccueilPage implements OnInit {
       angle = Math.random() * Math.PI * 2;
       rad = Math.random() * radius;
     }
-    console.log(this.stars)
+  }
+
+  getMoonPhase(year: number, month: number, day: number): number
+  {
+    let c = 0;
+    let e = 0;
+    let jd = 0;
+    let b = 0;
+    if (month < 3) {
+      year--;
+      month += 12;
+    }
+    ++month;
+    c = 365.25 * year;
+    e = 30.6 * month;
+    jd = c + e + day - 694039.09; //jd is total days elapsed
+    jd /= 29.5305882; //divide by the moon cycle
+    b = Math.floor(jd); //parseInt(jd); //int(jd) -> b, take integer part of jd
+    jd -= b; //subtract integer part to leave fractional part of original jd
+    b = Math.round(jd * 8); //scale fraction from 0-8 and round
+    if (b >= 8 ) {
+      b = 0; //0 and 8 are the same so turn 8 into 0
+    }
+
+    // 0 => New Moon
+    // 1 => Waxing Crescent Moon
+    // 2 => Quarter Moon
+    // 3 => Waxing Gibbous Moon
+    // 4 => Full Moon
+    // 5 => Waning Gibbous Moon
+    // 6 => Last Quarter Moon
+    // 7 => Waning Crescent Moon
+
+    return b;
   }
 
 }

@@ -9,17 +9,18 @@ export const PAGESNUITDETOILES : Story = {
   pages: [
     {
       noPage: 1,
-      text1: `Accoudé à la rambarde de ma terrasse, je regarde le soleil passer sous l’horizon. <br/>
-      De rouge à orangé, les tons deviennent plus froids et la nuit prend la terre sous son aile.
+      text1: `Accoudé à la rambarde de ma terrasse, je regarde le soleil passer sous l’horizon.<br/>
+      Toutes les nuances de rouge et d’orange ont rempli le ciel. Les oiseaux filent sous les derniers reflets dorés.<br/>
+      Peu à peu, les tons deviennent plus froids, et la nuit prend la Terre sous son aile.
       <br/><br/>
-      Des cabanes en contrebas, invisibles dans la végétation, monte le bruit de rires et le tintement de couverts.<br/>
+      Des cabanes en contrebas, invisibles dans la végétation, montent les bruits de rires et le tintement des couverts.<br/>
       Un à un, les lampions des chemins qui entourent les maisons s’éteignent.
       `,
       text2: `Aucun bruit ne monte de ma maison.<br/>
       Je ne sais pas ce que j’attends.<br/>
       Je ne ressens rien. Seule la faim qui me tiraille et m’entraîne vers des lieux déserts et silencieux.<br/>
       <br/>
-      Je regarde les premières étoiles apparaître.<br/>
+      Les premières étoiles apparaissent, vagues de petits lampions.<br/>
       Mes paupières s’alourdissent progressivement, mais je n’ai pas envie d’aller dormir.<br/>
       Je ne veux pas revoir le vide de mes songes.`,
       image1: 'assets/story/nuit-d-etoiles/lampion.svg',
@@ -33,13 +34,15 @@ export const PAGESNUITDETOILES : Story = {
       J’entends le ressac lointain de l’océan. Je somnole.<br/>
       Un mouvement, près de la rivière, attire mon attention.<br/>
       Là, sur les pierres qui entourent le torrent, la souple silhouette d’un renard argenté se découpe sur un fond de lune.<br/>
-      J’en reste pétrifié. Je n’en avais jamais vu de semblable.<br/>
-      Assis sur un rocher de la berge, il semble attendre.<br/>
+      Je me frotte les yeux, croyant rêver.<br/>
+      Je n’ai jamais vu un animal semblable. Il est magnifique. Son pelage d’un blanc pur paraît rayonner. Il se déplace avec grâce.<br/>
+      Je reste pétrifié.
       <br/><br/>
-      De nouveau, il fait un tour sur lui-même et son pelage scintille sous la lumière de la lune. Il agite sa queue touffue, comme pour s’assurer que je l’ai bien vu.<br/>
+      Alors, il agite sa queue touffue, comme pour s’assurer que je l’ai bien vu. Il tourne sur lui-même et son pelage reflète des ondes de lumière douce.
+      <br/><br/>
       De peur de l’effrayer, je ne fais pas un geste.<br/>
       Son regard me transperce, hypnotisant, alors que la rivière derrière lui coule dans un clapotis continu.`,
-      text2: `Alors, il se dresse sur les pierres qui fendent les eaux agitées et lève la tête vers le ciel.<br/>
+      text2: `Dans un mouvement gracieux, il se dresse sur les pierres qui fendent les eaux agitées et lève la tête vers le ciel.<br/>
       Suivant son regard, mon attention entièrement tournée vers le spectacle qui s’offre maintenant à moi, je ne vois pas l’éclair d’opale qui passe aux limites de mon champ de vision.`,
       image1: 'assets/story/nuit-d-etoiles/etoiles.svg',
       isBackground: false,
@@ -60,7 +63,8 @@ export const PAGESNUITDETOILES : Story = {
       Au moment où elle touche le sol, je ressens comme une onde. Ma vision se brouille.
       <br/><br/>
       Une fraction de seconde plus tard, c’est comme s’il ne s’était rien passé.<br/>
-      Plus de lumière, plus d’étoiles.<br/><br/>
+      Plus de lumière, plus d’étoiles.
+      <br/><br/>
       Je me demande si j’ai rêvé.<br/>
       Sur le bord de la rivière, il n’y a plus aucune lueur. Le renard a disparu.
       `,
@@ -68,8 +72,8 @@ export const PAGESNUITDETOILES : Story = {
       Celui de ma mère.<br/>
       Lorsque j’étais enfant, elle me racontait la légende d’un renard qui, balayant la neige de sa queue, créait les aurores boréales.<br/>
       <br/><br/>
-      Je souffle. Sur ces pensées, je rejoins ma chambre.<br/>
-      J’ai dû rêver. La fatigue m’emporte.<br/>
+      Je soupire. Sur ces pensées, je rejoins ma chambre.<br/>
+      La fatigue m’emporte.<br/>
       `,
       image1: '',
       isBackground: false,
@@ -79,7 +83,7 @@ export const PAGESNUITDETOILES : Story = {
     {
       noPage: 4,
       text1: ``,
-      text2: `Le vent se lève.<br/>
+      text2: `Au milieu de la nuit, le vent se lève.<br/>
       Les arbres fins bruissent sous sa caresse.<br/>
       <br/><br/>
       Un son cristallin m’a tiré du sommeil.<br/>
@@ -95,7 +99,7 @@ export const PAGESNUITDETOILES : Story = {
       text1: ``,
       text2: `Silence de braises dans la profondeur de la nuit.<br/>
       Le vent s’est calmé. Mais pas mes questions.<br/>
-      La mélodie qui m’appelle au-dehors est enivrante.<br/>
+      Une mélodie enivrante m’appelle au-dehors.<br/>
       J’ai envie de me laisser entraîner.
       `,
       image1: 'assets/story/nuit-d-etoiles/1-15.svg',
@@ -106,8 +110,12 @@ export const PAGESNUITDETOILES : Story = {
     {
       noPage: 6,
       text1: ``,
-      text2: `Ma curiosité atteint son paroxysme et je saute hors de mon lit.<br/>
+      text2: `“Je n’ai rien à perdre”<br/>
+      Alors pourquoi ne pas aller chercher ce qui m’appelle tant ?<br/>
+      Ma curiosité ne s’est pas calmée. J’ai besoin de réponses. J’ai besoin d’un but.<br/>
+      Je sors de mon lit.<br/>
       Les autres étoiles ne sont pas tombées pour moi. Mais celle-là, si. J’en suis sûr maintenant.<br/>
+      Et j’ai besoin d’une étoile. D’une lumière pour retrouver mon chemin.<br/>
       Je vais la trouver.
       <br/><br/>
       Avec des mouvements saccadés, je noue mes chaussures et déplace les toiles que j’ai mis devant la baie pour sortir.<br/>
@@ -125,16 +133,17 @@ export const PAGESNUITDETOILES : Story = {
     },
     {
       noPage: 7,
-      text1: `Quelque chose dans les reflets d’argent sur les feuilles de la forêt m’invite à sortir et me donne confiance.<br/>
-      Très loin, j’entends une mélodie.<br/>
+      text1: `Quelque chose dans la forêt m’invite à sortir et me donne confiance. Les bois sont animés de reflets d’argents qui fuient comme des feux-follets au rythme de mes pas.<br/>
       Bruissement.<br/>
       Quelqu’un arrive ?
       <br/><br/>
-      La peur me prend d’un coup, alors que je débouche dans une clairière.<br/>
+      Je doute. Pourquoi suis-je sorti ?<br/>
+      La peur, ou le sentiment d’une réponse proche, me font tressaillir.<br/>
       J’ai l’impression d’être observé.<br/>
       Mais l’étoile ne doit pas être loin.<br/>
-      Je vais jusqu’à la rivière, là où j’ai aperçu le renard, et commence à remonter le courant.<br/>
-      Le calme m'envahit de nouveau.
+      Je débouche entre les arbres, juste devant la rivière. Le renard était là, je peux presque voir son pelage flamboyant.<br/>
+      Très loin, j’entends une mélodie. Elle m’apaise.<br/>
+      Le calme m’envahit.
       `,
       text2: ``,
       image1: '',
@@ -145,12 +154,12 @@ export const PAGESNUITDETOILES : Story = {
     {
       noPage: 8,
       text1: `Je marche longtemps. J’ai l’impression de ne pas avancer.<br/>
-      Mais mon esprit cogite et les pensées, d’abord lent ballet dans mon esprit, fusent avec violence. Je suis assailli, et je me rends compte du temps depuis lequel je n’ai pas marché comme cela.<br/>
+      Mais mon esprit cogite et les pensées, d’abord lent ballet dans mon esprit, fusent avec violence. Je suis assailli. Depuis trop longtemps je n’avais pas marché comme cela.<br/>
       Juste vers l’avant. Sans aucun but.<br/>
       A la recherche d’un mystère, peut-être inexistant.<br/>
       <br/>`,
       text2: `Je ne sais pas quelle heure il est.<br/>
-      Je me demande si je me suis perdu.`,
+      Peu m’importe d’être perdu.`,
       image1: '',
       isBackground: false,
       isFlower: false,
@@ -179,7 +188,10 @@ export const PAGESNUITDETOILES : Story = {
     },
     {
       noPage: 10,
-      text1: `Alors, j’ai de nouveau l’impression que des personnes m'entourent.<br/>
+      text1: `A côté de nous, la rivière clapote doucement.<br/>
+      On se regarde, totalement silencieux.
+      <br/><br/>
+      Alors, j’ai de nouveau l’impression que des personnes m'entourent.<br/>
       Une forme sombre passe en courant à l’orée du bois.<br/>
       Elle s’arrête entre deux arbres et montre ses crocs luisants.
       <br/><br/>

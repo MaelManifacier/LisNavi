@@ -1,3 +1,6 @@
+/* - - - Variables - - - */
+
+/* - - - Contenu composant - - - */
 .page {
   overflow: hidden;
   min-height: 100vh;
@@ -19,13 +22,14 @@
 }
 
 .container-title {
-  margin-top: 9vh;
+  margin-top: 10vh;
   h1 {
     color: #FEFBF2;
     font-size: 1.4rem;
     word-spacing: .2rem;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Kells';
+    font-size: 2.2rem;
     // font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
   }
@@ -55,13 +59,13 @@ hr {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 10vh;
+  margin-top: 8vh;
 }
 
 .container-moon {
   z-index: -1;
   position: fixed;
-  bottom: 18vh;
+  bottom: 20vh;
   left: -60px;
   img {
     animation: glitter 6s cubic-bezier(0.14, 0.27, 0.82, 0.88) infinite;
