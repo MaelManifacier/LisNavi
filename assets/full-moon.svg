@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="405.543" height="419.1" viewBox="0 0 405.543 419.1">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="439.077" height="437.284" viewBox="0 0 439.077 437.284">
   <defs>
     <radialGradient id="radial-gradient" cx="0.57" cy="0.5" r="0.53" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#2a3a4a"/>
@@ -12,7 +12,7 @@
       <stop offset="0.82" stop-color="#f8ebc7" stop-opacity="0.502"/>
       <stop offset="1" stop-color="#faefd0" stop-opacity="0"/>
     </radialGradient>
-    <filter id="Tracé_804" x="0" y="0" width="389.109" height="419.1" filterUnits="userSpaceOnUse">
+    <filter id="Tracé_804" x="0" y="0" width="439.077" height="437.284" filterUnits="userSpaceOnUse">
       <feOffset input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="10" result="blur"/>
       <feFlood flood-color="#fdf7e6" flood-opacity="0.6"/>
@@ -25,11 +25,11 @@
       <stop offset="1" stop-color="#f8f7f4" stop-opacity="0"/>
     </radialGradient>
   </defs>
-  <g id="Groupe_567" data-name="Groupe 567" transform="translate(-121.56 -3850.17)">
+  <g id="Groupe_567" data-name="Groupe 567" transform="translate(-121.562 -3831.987)">
     <g id="moon" transform="translate(162.832 3874.742)">
       <path id="Tracé_803" data-name="Tracé 803" d="M146.5,0A146.5,146.5,0,1,1,0,146.5,146.5,146.5,0,0,1,146.5,0Z" transform="translate(-11.271 89.198) rotate(-20)" fill="url(#radial-gradient)"/>
-      <g transform="matrix(1, 0, 0, 1, -41.27, -24.57)" filter="url(#Tracé_804)">
-        <path id="Tracé_804-2" data-name="Tracé 804" d="M146.5,0c70.506-5.329,96.883,73.25,96.883,146.5S218.809,298.842,146.5,293a146.5,146.5,0,0,1,0-293Z" transform="translate(30.09 113.48) rotate(-20)" fill="url(#radial-gradient-2)"/>
+      <g transform="matrix(1, 0, 0, 1, -41.27, -42.76)" filter="url(#Tracé_804)">
+        <path id="Tracé_804-2" data-name="Tracé 804" d="M146.5,0c35.958-2.718,77.1,16.752,106.089,46.014,27.7,27.956,43.969,64.935,43.969,100.828,0,73.25-77.749,152-150.058,146.158a146.5,146.5,0,0,1,0-293Z" transform="translate(30.09 131.67) rotate(-20)" fill="url(#radial-gradient-2)"/>
       </g>
       <g id="Groupe_547" data-name="Groupe 547" transform="translate(61.742 216.298)">
         <path id="Tracé_262" data-name="Tracé 262" d="M2.571,0A10.431,10.431,0,0,1,4.1,1.3C5.761,2.912,6.64,3.378,6.64,4.91A9.647,9.647,0,0,1,5,9.324,3.9,3.9,0,0,1,2.224,10.39C.985,10.148,0,7.556,0,5.289S.288.134,2.571,0Z" transform="translate(54.811 38.274) rotate(71)" fill="rgba(185,64,62,0.8)"/>
