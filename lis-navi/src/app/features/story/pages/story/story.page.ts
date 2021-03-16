@@ -5,6 +5,7 @@ import { PAGESLISNAVI } from '../../mocks/pages-lis-navi.mock';
 import { PAGESNUITDETOILES } from '../../mocks/pages-nuit-d-etoiles.mock';
 import { PAGESIRO } from '../../mocks/pages-iro.mock';
 import { Story } from '../../model/story.model';
+import { PAGESLERASSEMBLEMENT } from '../../mocks/pages-le-rassemblement.mock';
 
 @Component({
   templateUrl: './story.page.html',
@@ -43,6 +44,9 @@ export class StoryPage implements OnInit {
         break;
       case 'iro':
         this.story = PAGESIRO;
+        break;
+      case 'le-rassemblement':
+        this.story = PAGESLERASSEMBLEMENT;
         break;
     }
   }

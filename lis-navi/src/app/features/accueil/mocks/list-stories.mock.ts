@@ -21,4 +21,9 @@ export const LISTSTORIES : StoryCard[] = [
     url: 'iro',
     img: 'assets/imgCardStories/iro.jpg',
   },
+  {
+    title: 'Le rassemblement',
+    url: 'le-rassemblement',
+    img: 'assets/imgCardStories/le-rassemblement.jpg',
+  },
 ];
