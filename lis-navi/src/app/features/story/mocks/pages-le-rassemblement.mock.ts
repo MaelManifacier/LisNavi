@@ -7,6 +7,14 @@ export const PAGESLERASSEMBLEMENT: Story = {
   btnLast: 'assets/story/le-rassemblement/last.svg',
   btnNext: 'assets/story/le-rassemblement/next/svg',
   pages: [
-
+    {
+      noPage: 1,
+      text1: `<br/>`,
+      text2: `<br/>`,
+      image1: '',
+      isBackground: false,
+      isFlower: false,
+      image2: ''
+    },
   ],
 };

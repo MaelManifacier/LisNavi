@@ -6,6 +6,9 @@
   <button *ngIf="story.url == 'lis-navi'" routerLink="../collection">
     <img src="assets/story/lis-navi/collection-old-photo.svg" />
   </button>
+  <span class="page-number">
+    {{ currentPage }} / {{ story.pages.length }}
+  </span>
 </header>
 
 <div class="container-detail">
