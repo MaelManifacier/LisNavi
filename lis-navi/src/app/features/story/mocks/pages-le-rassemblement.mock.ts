@@ -9,12 +9,16 @@ export const PAGESLERASSEMBLEMENT: Story = {
   pages: [
     {
       noPage: 1,
-      text1: `<br/>`,
-      text2: `<br/>`,
-      image1: '',
+      texts: [
+        `<br/>`,
+        `<br/>`,
+      ],
+      imgs: [
+        '',
+        ''
+      ],
       isBackground: false,
       isFlower: false,
-      image2: ''
     },
   ],
 };

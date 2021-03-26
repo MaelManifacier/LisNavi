@@ -9,6 +9,12 @@ export const PAGESNUITDETOILES : Story = {
   pages: [
     {
       noPage: 1,
+      texts: [
+
+      ],
+      imgs: [
+
+      ],
       text1: `Accoudé à la rambarde de ma terrasse, je regarde le soleil passer sous l’horizon.<br/>
       Toutes les nuances de rouge et d’orange ont rempli le ciel. Les oiseaux filent sous les derniers reflets dorés.<br/>
       Peu à peu, les tons deviennent plus froids, et la nuit prend la Terre sous son aile.

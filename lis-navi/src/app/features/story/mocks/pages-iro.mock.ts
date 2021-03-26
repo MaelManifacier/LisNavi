@@ -9,7 +9,8 @@ export const PAGESIRO: Story = {
   pages: [
     {
       noPage: 1,
-      text1: `« -1032<br/>
+      texts: [
+        `« -1032<br/>
       La Chine antique.<br/>
       En ce temps-là, une légende parlait d'un dragon. Un puissant dragon qui pouvait combattre mille soldats sans une égratignure.<br/>
       Ses écailles étaient de jade.<br/>
@@ -30,7 +31,7 @@ export const PAGESIRO: Story = {
       -	Une immense forêt. Traversée de lacs et de rivières.<br/>
       Je trace les cours d’eau et les montagnes qui la hérissent comme des centaines de pierres dressées.
       `,
-      text2: `-	Voilà. Maintenant, imagine, au plus profond de la forêt, un petit œuf.<br/>
+      `-	Voilà. Maintenant, imagine, au plus profond de la forêt, un petit œuf.<br/>
       Comme ça.<br/>
       En plein cœur de la forêt, j’ajoute à côté de mon premier dessin un ovale couleur ébène.
       <br/><br/>
@@ -50,14 +51,16 @@ export const PAGESIRO: Story = {
       <br/><br/>
       Un bruit m’interrompt.
       `,
-      image1: '',
-      isBackground: false,
-      isFlower: false,
-      image2: ''
+      ],
+      imgs: [
+        '',
+        ''
+      ],
     },
     {
       noPage: 2,
-      text1: `On toque à la porte. Plusieurs fois, avec insistance.<br/>
+      texts: [
+        `On toque à la porte. Plusieurs fois, avec insistance.<br/>
       Je me lève et ouvre.
       <br/><br/>
       Un inconnu me regarde. Il est plutôt jeune, il doit être envoyé par quelqu’un.<br/>
@@ -71,21 +74,22 @@ export const PAGESIRO: Story = {
       -	Je crois… Grand-mère vous cherche… Elle dit qu’il faut que tu viennes rapidement… S’il te plaît… Dans la rue en face de la place, de l’autre côté du pont. C’est le plus grand toit, la porte est toujours ouverte.<br/>
       Avant que je n’aie le temps d’ajouter autre chose, il a pris ses jambes à son cou et disparu dans une autre rue.
       `,
-      text2: `Je reste quelques secondes sur le pas de la porte avant de refermer.<br/>
+      `Je reste quelques secondes sur le pas de la porte avant de refermer.<br/>
       -	C’était qui ? demande Yong.<br/>
       -	Je ne sais pas.
       <br/><br/>
       Je traîne les pieds vers le bac à linge.<br/>
       Il m’a intriguée, j’irai chercher la maison quand j’aurai fini tout ça.
       `,
-      image1: '',
-      isBackground: false,
-      isFlower: false,
-      image2: ''
+      ],
+      imgs: [
+
+      ],
     },
     {
       noPage: 3,
-      text1: `Le soleil va bientôt se coucher.<br/>
+      texts: [
+        `Le soleil va bientôt se coucher.<br/>
       Je marche rapidement dans les rues.
       <br/><br/>
       La maison indiquée est rapidement trouvée.<br/>
@@ -97,7 +101,7 @@ export const PAGESIRO: Story = {
       La dame qui me répond a l’air très âgée.<br/>
       J’entre.
       `,
-      text2: `Les bois sont vernis, l’intérieur est bien meublé.<br/>
+      `Les bois sont vernis, l’intérieur est bien meublé.<br/>
       La dame est assise dans un coin. J’incline la tête dans sa direction.<br/>
       -	Madame, vous m’avez fait demander ?<br/>
       Elle s’étire pour me distinguer, je fais quelques pas vers elle.<br/>
@@ -109,14 +113,15 @@ export const PAGESIRO: Story = {
       <br/><br/>
       Elle parle sans regarder les traits d’encre. Son visage reste serein, totalement plongé dans ses souvenirs.
       `,
-      image1: '',
-      isBackground: false,
-      isFlower: false,
-      image2: ''
+      ],
+      imgs: [
+
+      ],
     },
     {
       noPage: 4,
-      text1: `« J’ai entendu parler de votre arrivée, et j’ai aussi entendu dire que vous préfériez passer votre temps libre à dessiner plutôt qu’à étudier, admoneste-t-elle.<br/>
+      texts: [
+        `« J’ai entendu parler de votre arrivée, et j’ai aussi entendu dire que vous préfériez passer votre temps libre à dessiner plutôt qu’à étudier, admoneste-t-elle.<br/>
       -	C’est vrai Madame.<br/>
       -	Vous êtes une jeune fille bien rebelle ! Son ton est faussement accusateur, elle sourit sous ses rides. Et que dessines-tu ?<br/>
       -	Des arbres, des fleurs, des maisons quelquefois.<br/>
@@ -128,7 +133,7 @@ export const PAGESIRO: Story = {
       Tu vois ce dessin ? Il montre le village. Au centre, c’est le païfang, notre porte, qui se dresse au milieu de la place. Les poissons représentent la rivière.<br/>
       Le trait qui relie l’extérieur au centre est le plus important, c’est le chemin qui mène au cœur du village en passant par le pont de pierre. »
       `,
-      text2: `« Maintenant, écoute bien. Toi qui es curieuse et passes ton temps à dessiner, savais-tu que tes idées viennent d’un monde où nous pouvons tous puiser ?<br/>
+      `« Maintenant, écoute bien. Toi qui es curieuse et passes ton temps à dessiner, savais-tu que tes idées viennent d’un monde où nous pouvons tous puiser ?<br/>
       Nous devons le protéger. C’est dans ce monde que mènent les portes de chacun de nos villages.<br/>
       Le nom de notre païfang est Báihǔ, le tigre blanc.<br/>
       Alors, si un jour tu le vois,<br/>
@@ -145,14 +150,15 @@ export const PAGESIRO: Story = {
       Elle a compris et hoche la tête.<br/>
       -	Va maintenant, rentre chez toi. Cette nuit ne sera pas une nuit comme les autres.
       `,
-      image1: '',
-      isBackground: false,
-      isFlower: false,
-      image2: ''
+      ],
+      imgs: [
+
+      ],
     },
     {
       noPage: 5,
-      text1: `Sur le pas de la porte, je lève les yeux. Les premières étoiles apparaissent dans le ciel.<br/>
+      texts: [
+        `Sur le pas de la porte, je lève les yeux. Les premières étoiles apparaissent dans le ciel.<br/>
       Plus personne n’est dehors. Je m’élance à grands pas et me glisse dans une ruelle, entre deux bâtiments.<br/>
       Et... Je n’en aurai pas fait beaucoup.<br/>
       Je stoppe net.
@@ -167,7 +173,7 @@ export const PAGESIRO: Story = {
       <br/><br/>
       Je cours maintenant, en plein milieu des rues. Je ne sais déjà plus où je suis.
       `,
-      text2: `La bête rôde.<br/>
+      `La bête rôde.<br/>
       J’aperçois la rivière au bout du passage et cours vers elle. Le bruit de mes pas résonne entre les murs de bois.<br/>
       Au dernier moment, je tourne dans une rue parallèle et me retrouve sur la place, face au païfang. Je m’arrête.<br/>
       Sous mes yeux, on dirait le dessin de la vieille dame.<br/>
@@ -179,14 +185,15 @@ export const PAGESIRO: Story = {
       Pour couper au plus court, je m'élance au milieu de la place.<br/>
       En deux pas, je suis sous la porte. Comme au ralenti, son ombre m’entoure et elle passe au-dessus de moi.
       `,
-      image1: 'assets/story/iro/paifang.jpg',
-      isBackground: false,
-      isFlower: false,
-      image2: ''
+      ],
+      imgs: [
+        'assets/story/iro/paifang.jpg',
+      ],
     },
     {
       noPage: 6,
-      text1: `Je tombe vers la lune.
+      texts: [
+        `Je tombe vers la lune.
       <br/><br/>
       Un froid étrange fuse de ma poitrine et de mon front et rayonne dans tout mon corps.
       <br/><br/>
@@ -199,7 +206,7 @@ export const PAGESIRO: Story = {
       “Et si…”<br/>
       Je secoue la tête. Il faut que je retrouve la maison.
       `,
-      text2: `Je descends les marches qui mènent à l’eau.<br/>
+      `Je descends les marches qui mènent à l’eau.<br/>
       Le chat me suit. Curieux et désintéressé.<br/>
       Avant de passer le cours d’eau, je lui tends les bras et il s’y réfugie.<br/>
       En relevant les yeux, je tombe de nouveau en arrêt.<br/>
@@ -211,14 +218,15 @@ export const PAGESIRO: Story = {
       Alors, le tigre avance vers moi et tourne au coin du pont pour observer l’eau.<br/>
       Je m’approche pour regarder.
       `,
-      image1: '',
-      isBackground: false,
-      isFlower: false,
-      image2: ''
+      ],
+      imgs: [
+
+      ],
     },
     {
       noPage: 7,
-      text1: `Une feuille pousse sur la rivière.<br/>
+      texts: [
+        `Une feuille pousse sur la rivière.<br/>
       Elle flotte comme un nénuphar.
       <br/><br/>
       Les deux bêtes me regardent.<br/>
@@ -234,29 +242,31 @@ export const PAGESIRO: Story = {
       Beaucoup sont venus assister à la naissance du dragon. De l’autre côté de la rivière, un renard aux pupilles d’or nous observe. Des oiseaux de toutes sortes sont perchés dans les arbres et sur les rebords de toits, et j’entends des bêtes courir et ramper sur les dalles de pierres et les lattes de bois.<br/>
       Tous sont attentifs.
       `,
-      text2: ``,
-      image1: '',
-      isBackground: false,
-      isFlower: false,
-      image2: ''
+      ``,
+      ],
+      imgs: [
+
+      ],
     },
     {
       noPage: 8,
-      text1: `Mon attention revient sur le dragon.<br/>
+      texts: [
+        `Mon attention revient sur le dragon.<br/>
       Il lève sa tête, qui paraît sculptée dans du grenat.<br/>
       Mes yeux sont accrochés par ses prunelles. Je tombe au fond de ses yeux.<br/>
       J’ai l’impression de flotter.<br/>
       Puis c’est le noir.
       `,
-      text2: ``,
-      image1: '',
-      isBackground: false,
-      isFlower: false,
-      image2: ''
+      ``,
+      ],
+      imgs: [
+
+      ],
     },
     {
       noPage: 9,
-      text1: `Je ne ressens rien. Etrange sensation.<br/>
+      texts: [
+        `Je ne ressens rien. Etrange sensation.<br/>
       Sérénité ?<br/>
       Aucune attente.<br/>
       Aucun désir.<br/>
@@ -275,15 +285,16 @@ export const PAGESIRO: Story = {
       <br/><br/>
       Je sors de mon œuf.
       `,
-      text2: ``,
-      image1: '',
-      isBackground: false,
-      isFlower: false,
-      image2: ''
+      ``,
+      ],
+      imgs: [
+
+      ],
     },
     {
       noPage: 10,
-      text1: `Je reprends pied avec la réalité.
+      texts: [
+        `Je reprends pied avec la réalité.
       <br/><br/>
       Yong m’appelle et me secoue. Ses yeux brillent.<br/>
       Dans un état second, ses larmes sont le reflet de la lune, elles brillent plus fort que les étoiles.<br/>
@@ -293,11 +304,11 @@ export const PAGESIRO: Story = {
       <br/>
       Je ne sais pas ce qui s’est passé. Mais la lune, confidente, paraît garder un secret.
       `,
-      text2: ``,
-      image1: '',
-      isBackground: false,
-      isFlower: false,
-      image2: ''
+      ``,
+      ],
+      imgs: [
+
+      ],
     },
   ],
 };
