@@ -1,6 +1,6 @@
 import { Story } from '../model/story.model';
 
-export const PAGESGRAPH : Story = {
+export const PAGESGRAPH: Story = {
   title: 'Graph',
   url: 'graph',
   img: 'assets/story/graph/graph.svg',
@@ -238,4 +238,4 @@ export const PAGESGRAPH : Story = {
       isFlower: false,
     },
   ],
-}
+};

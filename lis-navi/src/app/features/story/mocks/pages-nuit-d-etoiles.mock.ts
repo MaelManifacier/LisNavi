@@ -10,33 +10,29 @@ export const PAGESNUITDETOILES : Story = {
     {
       noPage: 1,
       texts: [
-
-      ],
-      imgs: [
-
-      ],
-      text1: `Accoudé à la rambarde de ma terrasse, je regarde le soleil passer sous l’horizon.<br/>
+        `Accoudé à la rambarde de ma terrasse, je regarde le soleil passer sous l’horizon.<br/>
       Toutes les nuances de rouge et d’orange ont rempli le ciel. Les oiseaux filent sous les derniers reflets dorés.<br/>
       Peu à peu, les tons deviennent plus froids, et la nuit prend la Terre sous son aile.
       <br/><br/>
       Des cabanes en contrebas, invisibles dans la végétation, montent les bruits de rires et le tintement des couverts.<br/>
       Un à un, les lampions des chemins qui entourent les maisons s’éteignent.
       `,
-      text2: `Aucun bruit ne monte de ma maison.<br/>
+      `Aucun bruit ne monte de ma maison.<br/>
       Je ne sais pas ce que j’attends.<br/>
       Je ne ressens rien. Seule la faim qui me tiraille et m’entraîne vers des lieux déserts et silencieux.<br/>
       <br/>
       Les premières étoiles apparaissent, vagues de petits lampions.<br/>
       Mes paupières s’alourdissent progressivement, mais je n’ai pas envie d’aller dormir.<br/>
       Je ne veux pas revoir le vide de mes songes.`,
-      image1: 'assets/story/nuit-d-etoiles/lampion.svg',
-      isBackground: false,
-      isFlower: false,
-      image2: ''
+      ],
+      imgs: [
+        'assets/story/nuit-d-etoiles/lampion.svg',
+      ],
     },
     {
       noPage: 2,
-      text1: `22:00<br/><br/>
+      texts: [
+        `22:00<br/><br/>
       J’entends le ressac lointain de l’océan. Je somnole.<br/>
       Un mouvement, près de la rivière, attire mon attention.<br/>
       Là, sur les pierres qui entourent le torrent, la souple silhouette d’un renard argenté se découpe sur un fond de lune.<br/>
@@ -48,16 +44,17 @@ export const PAGESNUITDETOILES : Story = {
       <br/><br/>
       De peur de l’effrayer, je ne fais pas un geste.<br/>
       Son regard me transperce, hypnotisant, alors que la rivière derrière lui coule dans un clapotis continu.`,
-      text2: `Dans un mouvement gracieux, il se dresse sur les pierres qui fendent les eaux agitées et lève la tête vers le ciel.<br/>
+      `Dans un mouvement gracieux, il se dresse sur les pierres qui fendent les eaux agitées et lève la tête vers le ciel.<br/>
       Suivant son regard, mon attention entièrement tournée vers le spectacle qui s’offre maintenant à moi, je ne vois pas l’éclair d’opale qui passe aux limites de mon champ de vision.`,
-      image1: 'assets/story/nuit-d-etoiles/etoiles.svg',
-      isBackground: false,
-      isFlower: false,
-      image2: ''
+      ],
+      imgs: [
+        'assets/story/nuit-d-etoiles/etoiles.svg',
+      ],
     },
     {
       noPage: 3,
-      text1: `Les étoiles remplissent le ciel.<br/>
+      texts: [
+        `Les étoiles remplissent le ciel.<br/>
       Dans une valse silencieuse, elles se rapprochent de notre île.<br/>
       Certaines tombent à des milliers de kilomètres d’ici.<br/>
       Il pleut des éclats de lumière.
@@ -74,49 +71,52 @@ export const PAGESNUITDETOILES : Story = {
       Je me demande si j’ai rêvé.<br/>
       Sur le bord de la rivière, il n’y a plus aucune lueur. Le renard a disparu.
       `,
-      text2: `Je me frotte les yeux et un souvenir me revient.<br/>
+      `Je me frotte les yeux et un souvenir me revient.<br/>
       Celui de ma mère.<br/>
       Lorsque j’étais enfant, elle me racontait la légende d’un renard qui, balayant la neige de sa queue, créait les aurores boréales.<br/>
       <br/><br/>
       Je soupire. Sur ces pensées, je rejoins ma chambre.<br/>
       La fatigue m’emporte.<br/>
       `,
-      image1: '',
-      isBackground: false,
-      isFlower: false,
-      image2: ''
+      ],
+      imgs: [
+
+      ],
     },
     {
       noPage: 4,
-      text1: ``,
-      text2: `Au milieu de la nuit, le vent se lève.<br/>
+      texts: [
+        ``,
+        `Au milieu de la nuit, le vent se lève.<br/>
       Les arbres fins bruissent sous sa caresse.<br/>
       <br/><br/>
       Un son cristallin m’a tiré du sommeil.<br/>
       Je me tourne et retourne dans mon lit. Une idée tenace m’empêche de dormir. La curiosité m’appelle au-dehors, près de l’étoile tombée.
       `,
-      image1: 'assets/story/nuit-d-etoiles/23-57.svg',
-      isBackground: false,
-      isFlower: false,
-      image2: ''
+      ],
+      imgs: [
+        'assets/story/nuit-d-etoiles/23-57.svg',
+      ],
     },
     {
       noPage: 5,
-      text1: ``,
-      text2: `Silence de braises dans la profondeur de la nuit.<br/>
+      texts: [
+        ``,
+        `Silence de braises dans la profondeur de la nuit.<br/>
       Le vent s’est calmé. Mais pas mes questions.<br/>
       Une mélodie enivrante m’appelle au-dehors.<br/>
       J’ai envie de me laisser entraîner.
       `,
-      image1: 'assets/story/nuit-d-etoiles/1-15.svg',
-      isBackground: false,
-      isFlower: false,
-      image2: ''
+      ],
+      imgs: [
+        'assets/story/nuit-d-etoiles/1-15.svg',
+      ],
     },
     {
       noPage: 6,
-      text1: ``,
-      text2: `“Je n’ai rien à perdre”<br/>
+      texts: [
+        ``,
+        `“Je n’ai rien à perdre”<br/>
       Alors pourquoi ne pas aller chercher ce qui m’appelle tant ?<br/>
       Ma curiosité ne s’est pas calmée. J’ai besoin de réponses. J’ai besoin d’un but.<br/>
       Je sors de mon lit.<br/>
@@ -132,14 +132,15 @@ export const PAGESNUITDETOILES : Story = {
       <br/><br/>
       <br/><br/>
       Je sors à grands pas et enjambe le muret qui entoure le jardin.`,
-      image1: 'assets/story/nuit-d-etoiles/2-27.svg',
-      isBackground: false,
-      isFlower: false,
-      image2: ''
+      ],
+      imgs: [
+        'assets/story/nuit-d-etoiles/2-27.svg',
+      ],
     },
     {
       noPage: 7,
-      text1: `Quelque chose dans la forêt m’invite à sortir et me donne confiance. Les bois sont animés de reflets d’argents qui fuient comme des feux-follets au rythme de mes pas.<br/>
+      texts: [
+        `Quelque chose dans la forêt m’invite à sortir et me donne confiance. Les bois sont animés de reflets d’argents qui fuient comme des feux-follets au rythme de mes pas.<br/>
       Bruissement.<br/>
       Quelqu’un arrive ?
       <br/><br/>
@@ -151,29 +152,30 @@ export const PAGESNUITDETOILES : Story = {
       Très loin, j’entends une mélodie. Elle m’apaise.<br/>
       Le calme m’envahit.
       `,
-      text2: ``,
-      image1: '',
-      isBackground: false,
-      isFlower: false,
-      image2: ''
+      ],
+      imgs: [
+
+      ],
     },
     {
       noPage: 8,
-      text1: `Je marche longtemps. J’ai l’impression de ne pas avancer.<br/>
+      texts: [
+        `Je marche longtemps. J’ai l’impression de ne pas avancer.<br/>
       Mais mon esprit cogite et les pensées, d’abord lent ballet dans mon esprit, fusent avec violence. Je suis assailli. Depuis trop longtemps je n’avais pas marché comme cela.<br/>
       Juste vers l’avant. Sans aucun but.<br/>
       A la recherche d’un mystère, peut-être inexistant.<br/>
       <br/>`,
-      text2: `Je ne sais pas quelle heure il est.<br/>
+      `Je ne sais pas quelle heure il est.<br/>
       Peu m’importe d’être perdu.`,
-      image1: '',
-      isBackground: false,
-      isFlower: false,
-      image2: ''
+      ],
+      imgs: [
+
+      ],
     },
     {
       noPage: 9,
-      text1: `Je l’aperçois alors, couché au bord de l’eau.<br/>
+      texts: [
+        `Je l’aperçois alors, couché au bord de l’eau.<br/>
       Sur sa patte arrière, ses poils paraissent étrangement tachés. Est-il blessé ?<br/>
       Je m’approche lentement et le vois alors nettement.<br/>
       Son pelage luit faiblement sous la lumière de la lune.<br/>
@@ -186,15 +188,15 @@ export const PAGESNUITDETOILES : Story = {
       Enroulé sur lui-même, il m’observe, la tête dans sa fourrure.<br/>
       Son regard brille d'intelligence.
       <br/><br/>`,
-      text2: ``,
-      image1: '',
-      isBackground: false,
-      isFlower: false,
-      image2: ''
+      ],
+      imgs: [
+
+      ],
     },
     {
       noPage: 10,
-      text1: `A côté de nous, la rivière clapote doucement.<br/>
+      texts: [
+        `A côté de nous, la rivière clapote doucement.<br/>
       On se regarde, totalement silencieux.
       <br/><br/>
       Alors, j’ai de nouveau l’impression que des personnes m'entourent.<br/>
@@ -209,7 +211,7 @@ export const PAGESNUITDETOILES : Story = {
       Un rayon de lune tombe sur elle et je la vois enfin. Sa fourrure épaisse est striée de cannelle et d’anthracite.<br/>
       Je tends la main vers elle et elle se fige.
       `,
-      text2: `Je ressens sa rage, mais j’essaie de lui donner mon calme.
+      `Je ressens sa rage, mais j’essaie de lui donner mon calme.
       <br/><br/>
       Alors, le renard me regarde. Il a l’air… satisfait ?<br/>
       Dans un mouvement fluide, il coule entre mes bras et file par-dessus la rivière. Là, il se redresse sur ses pattes arrière.<br/>
@@ -224,21 +226,22 @@ export const PAGESNUITDETOILES : Story = {
       Mais, du côté où la gamine est partie, sur l'autre bord de la rivière, un autre élément a attiré mon regard.<br/>
       L’étoile est juste là. A quelques mètres du sol, dans le creux d’un arbre qui ne paraît pas avoir été ébranlé par la force de sa chute.
       `,
-      image1: 'assets/story/nuit-d-etoiles/4-04.svg',
-      isBackground: false,
-      isFlower: false,
-      image2: ''
+      ],
+      imgs: [
+        'assets/story/nuit-d-etoiles/4-04.svg',
+      ],
     },
     {
       noPage: 11,
-      text1: `Je me lève et, suivant l’étrange être, je rejoins souplement l’autre côté du torrent.<br/>
+      texts: [
+        `Je me lève et, suivant l’étrange être, je rejoins souplement l’autre côté du torrent.<br/>
       Je m’accroche à une première branche, prends une inspiration, et tire sur mes bras pour rejoindre la suivante.<br/>
       D’étage en étage, je finis par arriver au creux de l’arbre, la cime sur laquelle je suis perché ployant sous mon poids.
       <br/><br/>
       Entre deux branches, la pierre étrange brille d’une lueur bleutée. Elle est parcourue de veinules vertes et violettes.<br/>
       J’en approche la main. Aucune chaleur ne s’en dégage.
       `,
-      text2: `Alors, ma peau frôle la roche.<br/>
+      `Alors, ma peau frôle la roche.<br/>
       Décharge.<br/>
       Tout mon corps se cambre et ma conscience s’éteint brièvement.<br/>
       Mes souvenirs sont fouillés, remis en ordre.<br/>
@@ -251,14 +254,15 @@ export const PAGESNUITDETOILES : Story = {
       La roche est dans ma main. J’en apprécie la texture. Douce et électrifiante.
       <br/><br/>
       D’un coup, je recouvre la vue.`,
-      image1: 'assets/story/nuit-d-etoiles/stone.svg',
-      isBackground: false,
-      isFlower: false,
-      image2: ''
+      ],
+      imgs: [
+        'assets/story/nuit-d-etoiles/stone.svg',
+      ],
     },
     {
       noPage: 12,
-      text1: `Le soleil se lève.<br/>
+      texts: [
+        `Le soleil se lève.<br/>
       Je suis allongé dans une clairière, au bord de la rivière.<br/>
       Mon corps est courbaturé, je me redresse difficilement.<br/>
       La brume descend des collines et coule entre les arbres en direction de la mer.<br/>
@@ -268,7 +272,7 @@ export const PAGESNUITDETOILES : Story = {
       Le soleil levant a brouillé mes songes.<br/>
       L’air a changé. Il me parait plus doux, fruité.
       `,
-      text2: `Je me tourne vers la rivière.<br/>
+      `Je me tourne vers la rivière.<br/>
       Là, dans un silence seulement rompu par le chant des oiseaux lointains, le renard d’opale m’observe, assis au milieu des flots.
       <br/><br/>
       Comme en réponse à son regard, les souvenirs me reviennent dans un tourbillon.<br/>
@@ -300,10 +304,10 @@ export const PAGESNUITDETOILES : Story = {
       Cette nuit, j’ai rencontré les constructeurs de rêves.<br/>
       Pendant quelques heures, leurs illusions m’ont porté.
       `,
-      image1: 'assets/story/nuit-d-etoiles/6-47.svg',
-      isBackground: false,
-      isFlower: false,
-      image2: ''
+      ],
+      imgs: [
+        'assets/story/nuit-d-etoiles/6-47.svg',
+      ],
     },
   ],
-}
+};

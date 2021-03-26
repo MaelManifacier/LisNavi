@@ -1,4 +1,4 @@
-import { Component, OnInit, ChangeDetectionStrategy, Input, SimpleChanges, ViewChild, ElementRef } from '@angular/core';
+import { Component, OnInit, ChangeDetectionStrategy, Input, ViewChild, ElementRef } from '@angular/core';
 import { Page } from '../../model/page.model';
 
 @Component({
@@ -12,35 +12,27 @@ import { Page } from '../../model/page.model';
 })
 export class StoryDetailComponent implements OnInit {
 
-  @Input() page?: Page;
+  @Input() page: Page = new Page();
 
   public storyDetail!: ElementRef;
+  maxTextImgLen = 0;
+  lenTexts = 0;
+  lenImgs = 0;
 
   public scrollToTop() {
     this.storyDetail?.nativeElement.scrollTo(0,0);
   }
 
-  /*
-  story: Page = {
-    noPage: 1,
-    text1: 'Bonjour, je suis Xue. Le 2 Shi\'èr yuè, en plein milieu de l\'hiver, j\'ai dû quitter mon village.',
-    text2: '',
-    image1: 'assets/story/lis-navi/1.svg',
-    isBackground: false,
-    isFlower: false,
-    image2: ''
-  };
-  */
-
   constructor() { }
 
   ngOnInit(): void {
+    this.lenTexts = this.page.texts.length;
+    this.lenImgs = this.page.imgs.length;
+    this.maxTextImgLen = this.lenTexts > this.lenImgs ? this.lenTexts : this.lenImgs;
+      // (this.page?.texts.length || 0) > (this.page?.imgs.length || 0) ? (this.page?.texts.length || 0) : (this.page?.imgs.length || 0);
   }
 
-  ngOnChanges(changes: SimpleChanges): void {
-    //Called before any other lifecycle hook. Use it to inject dependencies, but avoid any serious work here.
-    //Add '${implements OnChanges}' to the class.
-    console.log("Change")
+  ngOnChanges(): void {
     this.scrollToTop();
   }
 
