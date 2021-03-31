@@ -6,6 +6,7 @@ const routes: Routes = [
   { path: 'story', loadChildren: () => import('./features/story/story.module').then(m => m.StoryModule) },
   { path: 'collection', loadChildren: () => import('./features/collection/collection.module').then(m => m.CollectionModule) },
   { path: 'accueil', loadChildren: () => import('./features/accueil/accueil.module').then(m => m.AccueilModule) },
+  { path: 'image', loadChildren: () => import('./features/image/image.module').then(m => m.ImageModule) },
   { path: '**', loadChildren: () => import('./features/boo/boo.module').then(m => m.BooModule) },
 ];
 

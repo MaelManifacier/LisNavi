@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="93" height="93" viewBox="0 0 93 93">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="101" height="101" viewBox="0 0 101 101">
   <defs>
     <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#beaea4"/>
       <stop offset="1" stop-color="#987a65"/>
     </linearGradient>
-    <filter id="Ellipse_43" x="0" y="0" width="93" height="93" filterUnits="userSpaceOnUse">
+    <filter id="Ellipse_43" x="0" y="0" width="101" height="101" filterUnits="userSpaceOnUse">
       <feOffset input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="10" result="blur"/>
       <feFlood flood-color="#beaea4" flood-opacity="0.6"/>
@@ -14,11 +14,11 @@
   </defs>
   <g id="Groupe_620" data-name="Groupe 620" transform="translate(-16385 -12131)">
     <g transform="matrix(1, 0, 0, 1, 16385, 12131)" filter="url(#Ellipse_43)">
-      <circle id="Ellipse_43-2" data-name="Ellipse 43" cx="16.5" cy="16.5" r="16.5" transform="translate(30 30)" fill="url(#linear-gradient)"/>
+      <circle id="Ellipse_43-2" data-name="Ellipse 43" cx="20.5" cy="20.5" r="20.5" transform="translate(30 30)" fill="url(#linear-gradient)"/>
     </g>
-    <g id="back" transform="translate(16324.586 12168.5)">
-      <g id="Groupe_100" data-name="Groupe 100" transform="translate(102.298 0)">
-        <path id="Tracé_593" data-name="Tracé 593" d="M103.971,9.014l7.83-7.83a.693.693,0,1,0-.98-.98L102.5,8.524a.693.693,0,0,0,0,.98l8.321,8.321a.693.693,0,0,0,.98-.98Z" transform="translate(-102.298 0)" fill="#ffe8d4"/>
+    <g id="back" transform="translate(16429.764 12170.319)">
+      <g id="Groupe_100" data-name="Groupe 100">
+        <path id="Tracé_593" data-name="Tracé 593" d="M104.377,11.2l9.729-9.729A.861.861,0,0,0,112.887.253L102.55,10.59a.861.861,0,0,0,0,1.218l10.338,10.338a.861.861,0,0,0,1.218-1.218Z" transform="translate(-102.298 0)" fill="#ffe8d4"/>
       </g>
     </g>
   </g>

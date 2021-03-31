@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="93" height="93" viewBox="0 0 93 93">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="101" height="101" viewBox="0 0 101 101">
   <defs>
     <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#95cb50"/>
       <stop offset="1" stop-color="#5d9811"/>
     </linearGradient>
-    <filter id="Ellipse_44" x="0" y="0" width="93" height="93" filterUnits="userSpaceOnUse">
+    <filter id="Ellipse_44" x="0" y="0" width="101" height="101" filterUnits="userSpaceOnUse">
       <feOffset input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="10" result="blur"/>
       <feFlood flood-color="#8fa267" flood-opacity="0.6"/>
@@ -12,13 +12,13 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="Groupe_619" data-name="Groupe 619" transform="translate(-16438 -12131)">
-    <g transform="matrix(1, 0, 0, 1, 16438, 12131)" filter="url(#Ellipse_44)">
-      <circle id="Ellipse_44-2" data-name="Ellipse 44" cx="16.5" cy="16.5" r="16.5" transform="translate(30 30)" fill="url(#linear-gradient)"/>
+  <g id="Groupe_619" data-name="Groupe 619" transform="translate(-16438 -12131.403)">
+    <g transform="matrix(1, 0, 0, 1, 16438, 12131.4)" filter="url(#Ellipse_44)">
+      <circle id="Ellipse_44-2" data-name="Ellipse 44" cx="20.5" cy="20.5" r="20.5" transform="translate(30 30)" fill="url(#linear-gradient)"/>
     </g>
-    <g id="back" transform="translate(16591.887 12186.52) rotate(180)">
-      <g id="Groupe_100" data-name="Groupe 100" transform="translate(102.298 0)">
-        <path id="Tracé_593" data-name="Tracé 593" d="M103.971,9.014l7.83-7.83a.693.693,0,1,0-.98-.98L102.5,8.524a.693.693,0,0,0,0,.98l8.321,8.321a.693.693,0,0,0,.98-.98Z" transform="translate(-102.298 0)" fill="#e5ecdb"/>
+    <g id="back" transform="translate(16495.109 12193.01) rotate(180)">
+      <g id="Groupe_100" data-name="Groupe 100" transform="translate(0 0)">
+        <path id="Tracé_593" data-name="Tracé 593" d="M2.1,11.318l9.832-9.832A.87.87,0,1,0,10.7.255L.255,10.7a.871.871,0,0,0,0,1.231L10.7,22.381a.871.871,0,0,0,1.231-1.231Z" fill="#e5ecdb"/>
       </g>
     </g>
   </g>

@@ -1,0 +1,14 @@
+
+<div>
+  <div class="container-bouton-image">
+    <a [routerLink]="[ '/accueil' ]">
+      <img title="Accueil" src="assets/image/image.svg" />
+    </a>
+  </div>
+
+  <div class="container-list">
+    <div class="card-story" *ngFor="let onePageStory of listOnePagesStories">
+      <span>{{ onePageStory.title }}</span>
+    </div>
+  </div>
+</div>

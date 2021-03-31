@@ -3,12 +3,12 @@
   <div class="container-contenu">
     <div *ngFor="let element of lenTexts > lenImgs ? page.texts: page.imgs; let i = index">
       <div class="container-text" *ngIf="page.texts[i]">
-        <p [style.text-align]="i == 2 && page.isFlower ? 'center' : ''" [innerHTML]="page.texts[i]"></p>
+        <p [style.text-align]="page.isFlower ? 'center' : ''" [innerHTML]="page.texts[i]"></p>
       </div>
 
       <div *ngIf="page.imgs[i]" [style.visibility]="page.imgs[i] ? 'visible' : 'hidden'"
         [class]="i == 1 && maxTextImgLen < 3 ? 'container-img-bottom' : 'img-centrale'">
-        <img class="img1" max-width="50%" [src]="page.imgs[i] || ''" />
+        <img title="image-story" class="img1" max-width="50%" [src]="page.imgs[i] || ''" />
       </div>
     </div>
 

@@ -29,13 +29,15 @@
   -->
 
   <div class="container-moon">
-    <img title="Moon" width="230" height="230" src="assets/moon.svg" />
+    <img title="Moon" width="160" height="160" src="assets/moon.svg" />
   </div>
 
   <div class="container-fox" [ngSwitch]="moonPhase">
-    <img *ngSwitchCase="0" src="assets/black-fox.svg" title="Fox" width="150" height="150">
-    <img *ngSwitchCase="4" src="assets/fox-shadow.svg" title="Fox" width="150" height="150">
-    <img *ngSwitchDefault src="assets/fox-color.svg" title="Fox" width="150" height="150">
+    <a [routerLink]="[ '/image' ]">
+      <img *ngSwitchCase="0" src="assets/black-fox.svg" title="Fox" width="150" height="150">
+      <img *ngSwitchCase="4" src="assets/fox-shadow.svg" title="Fox" width="150" height="150">
+      <img *ngSwitchDefault src="assets/fox-color.svg" title="Fox" width="150" height="150">
+    </a>
   </div>
 
 </div>
