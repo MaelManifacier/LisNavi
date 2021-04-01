@@ -33,11 +33,11 @@
   </div>
 
   <div class="container-fox" [ngSwitch]="moonPhase">
-    <a [routerLink]="[ '/image' ]">
+    <!--<a [routerLink]="[ '/image' ]">-->
       <img *ngSwitchCase="0" src="assets/black-fox.svg" title="Fox" width="150" height="150">
       <img *ngSwitchCase="4" src="assets/fox-shadow.svg" title="Fox" width="150" height="150">
       <img *ngSwitchDefault src="assets/fox-color.svg" title="Fox" width="150" height="150">
-    </a>
+    <!--</a>-->
   </div>
 
 </div>
