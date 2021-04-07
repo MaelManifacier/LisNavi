@@ -42,7 +42,7 @@ export const PAGESLERASSEMBLEMENT: Story = {
       noPage: 2,
       texts: [
         `Je tombe.<br/>
-        Un grondement sourd résonne en-dessous et quelque chose fouette l'air un première fois.
+        Un grondement sourd résonne en-dessous et quelque chose fouette l'air une première fois.
         <br/>`,
         `J’entends couiner.<br/>
         La même chose me happe et je suis projetée contre la roche.
@@ -197,7 +197,7 @@ export const PAGESLERASSEMBLEMENT: Story = {
         <br/>`,
         `L’air est frais, le vent léger joue avec les arbres.<br/>
         Protégée de mon regard par l’hypnotisant paysage, une petite créature se faufile entre les montants du païfang.<br/>
-        J’entends un couinement et me retourne d’un bond. / Je me retourne d’un bond au moment où je l’entends couiner.
+        J’entends un couinement et me retourne d’un bond.
         <br/>`,
         `Le lézard qui se coule jusqu’à mes pieds a perdu toute la prestance de la puissante bête qui se tenait près de moi quelques heures plus tôt. Il paraît presque fragile, haut comme un lièvre.<br/>
         Sans savoir pourquoi, le voir me fait rire, et relègue ma peur au rang de simple souvenir.<br/>
@@ -420,7 +420,7 @@ export const PAGESLERASSEMBLEMENT: Story = {
         <br/>`,
         `Juste avant que la vue me revienne, j’entends leurs voix, réunies en une seule.<br/>
         “Bienvenue Iro, gardien des pics ensoleillés. Et bienvenue à toi, Xue Xiao. Bienvenue chez les veilleurs.”<br/>
-        Mes pieds touchent le sol. Des cris de joie m’accueillent. / C’est presque avec regret que mes pieds touchent le sol.<br/>`,
+        Mes pieds touchent le sol. Des cris de joie m’accueillent.<br/>`,
       ],
       imgs: [
         '',
