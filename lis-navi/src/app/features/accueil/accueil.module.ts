@@ -5,6 +5,8 @@ import { AccueilRoutingModule } from './accueil-routing.module';
 import { AccueilComponent } from './accueil.component';
 import { AccueilPage } from './pages/accueil/accueil.page';
 import { AccueilCardStoryComponent } from './components/accueil-card-story/accueil-card-story.component';
+import { AccueilDoubleCardStoryComponent } from './components/accueil-double-card-story/accueil-double-card-story.component';
+import { ChaptersPage } from './pages/chapters/chapters.page';
 
 
 @NgModule({
@@ -12,6 +14,8 @@ import { AccueilCardStoryComponent } from './components/accueil-card-story/accue
     AccueilComponent,
     AccueilPage,
     AccueilCardStoryComponent,
+    AccueilDoubleCardStoryComponent,
+    ChaptersPage,
   ],
   imports: [
     CommonModule,

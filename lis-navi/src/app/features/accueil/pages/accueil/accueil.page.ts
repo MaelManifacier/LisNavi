@@ -9,6 +9,11 @@ import { StoryCard } from '../../model/story-card.model';
 export class AccueilPage implements OnInit {
 
   listStories : StoryCard[] = LISTSTORIES;
+  storyCardEdwige = {
+    title: 'Edwige',
+    url: 'edwige',
+    img: 'assets/imgCardStories/edwige.jpg',
+  };
 
   stars?: Star[] = [];
   moonPhase = 1;
