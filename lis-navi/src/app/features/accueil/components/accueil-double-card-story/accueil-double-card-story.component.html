@@ -1,6 +1,6 @@
 <div class="container-card"
     [ngStyle]="setCardStyle()"
-    [routerLink]="['chapters/', { url: storyCard?.url}]">
+    [routerLink]="['chapters/', { storyName: storyCard?.url}]">
 
   <p>{{ storyCard?.title }}</p>
 

@@ -1,0 +1,18 @@
+/* - - - Variables - - - */
+$phone-width: 8in;
+
+/* - - - Contenu composant - - - */
+.card-chapter {
+  max-width: 60vw;
+  background-color: #40454E;
+  border-radius: 5px;
+  margin: 5vh auto;
+  padding: 1rem 2.2rem;
+}
+
+/* - - - Sur pc - - - */
+@media (min-width: $phone-width) {
+  .card-chapter {
+    width: 30vw;
+  }
+}

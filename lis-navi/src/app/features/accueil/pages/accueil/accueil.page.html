@@ -30,7 +30,7 @@
   -->
 
   <div class="container-moon">
-    <img title="Moon" width="160" height="160" src="assets/moon.svg" />
+    <img *ngIf="moonPhase !== 0" title="Moon" width="160" height="160" src="assets/moon.svg" />
   </div>
 
   <div class="container-fox" [ngSwitch]="moonPhase">

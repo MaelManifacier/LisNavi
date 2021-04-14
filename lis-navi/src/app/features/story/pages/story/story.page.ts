@@ -15,14 +15,14 @@ export class StoryPage implements OnInit {
 
   story: Story = PAGESLISNAVI;
 
-  currentPage : number = 1;
+  currentPage: number = 1;
   storyName: string = '';
 
   constructor(
-    private route : ActivatedRoute,
+    private route: ActivatedRoute,
     private router: Router) { }
 
-  ngOnInit() {
+  ngOnInit(): void {
     this.route.paramMap.subscribe( (params: ParamMap) => {
       this.currentPage = parseInt(params.get('id') ?? '1');
       this.storyName = params.get('storyName') ?? '';
@@ -31,7 +31,7 @@ export class StoryPage implements OnInit {
     });
   }
 
-  getStoryFromName() {
+  getStoryFromName(): void {
     switch(this.storyName) {
       case 'lis-navi':
         this.story = PAGESLISNAVI;

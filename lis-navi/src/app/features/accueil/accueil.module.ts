@@ -7,6 +7,7 @@ import { AccueilPage } from './pages/accueil/accueil.page';
 import { AccueilCardStoryComponent } from './components/accueil-card-story/accueil-card-story.component';
 import { AccueilDoubleCardStoryComponent } from './components/accueil-double-card-story/accueil-double-card-story.component';
 import { ChaptersPage } from './pages/chapters/chapters.page';
+import { CardChapterComponent } from './components/card-chapter/card-chapter.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { ChaptersPage } from './pages/chapters/chapters.page';
     AccueilCardStoryComponent,
     AccueilDoubleCardStoryComponent,
     ChaptersPage,
+    CardChapterComponent,
   ],
   imports: [
     CommonModule,

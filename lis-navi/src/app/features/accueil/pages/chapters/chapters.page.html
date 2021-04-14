@@ -1,1 +1,10 @@
-<p>chapters works!</p>
+<header>
+  <button routerLink="">
+    <img [src]="'assets/back.svg'"/>
+  </button>
+  <h1>{{ storyName }}</h1>
+</header>
+
+<div class="container-chapters">
+  <app-card-chapter *ngFor="let chapter of chapters" [cardChapter]="chapter"></app-card-chapter>
+</div>
