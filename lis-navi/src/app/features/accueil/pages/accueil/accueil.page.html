@@ -19,8 +19,10 @@
   <hr/>
 
   <div class="container-list-stories">
-    <app-accueil-double-card-story [storyCard]="storyCardEdwige"></app-accueil-double-card-story>
-    <app-accueil-card-story *ngFor="let story of listStories" [storyCard]="story"></app-accueil-card-story>
+    <!-- <div> -->
+      <app-accueil-double-card-story [storyCard]="storyCardEdwige"></app-accueil-double-card-story>
+      <app-accueil-card-story *ngFor="let story of listStories" [storyCard]="story"></app-accueil-card-story>
+    <!-- </div> -->
   </div>
 
   <!-- Bouton "Lire"
@@ -34,7 +36,7 @@
   </div>
 
   <div class="container-fox" [ngSwitch]="moonPhase">
-    <a [routerLink]="[ '/image' ]">
+    <a (click)="clickFox()">
       <img *ngSwitchCase="0" src="assets/black-fox.svg" title="Fox" width="150" height="150">
       <img *ngSwitchCase="4" src="assets/fox-shadow.svg" title="Fox" width="150" height="150">
       <img *ngSwitchDefault src="assets/fox-color.svg" title="Fox" width="150" height="150">

@@ -87,8 +87,9 @@ hr {
   position: fixed;
   bottom: 0px;
   right: 20vw;
-  animation: starsRotate 240s linear infinite;
+  animation: starsRotate 480s linear infinite;
   transform-origin: bottom right 0px;
+  -webkit-animation: starsRotate 480s linear infinite;
 }
 
 .star {

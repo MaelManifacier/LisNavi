@@ -1,16 +1,14 @@
 /* - - - Var - - - */
-$phone-width: 8in;
-
 /* - - - Contenu composant - - - */
 header {
   max-height: 15vh;
   margin: 0 5px;
   padding: 2vh 1vw;
   display: flex;
+}
 
-  h1 {
-    margin-left: 1rem;
-  }
+header h1 {
+  margin-left: 1rem;
 }
 
 .container-chapter {
@@ -19,12 +17,12 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 8vh;
+}
 
-  .app-card-chapter {
-    transform: translateX(20vw);
-    -webkit-transform: translateX(20vw);
-    -moz-transform: translateX(20vw);
-    -ms-transform: translateX(20vw);
-    -o-transform: translateX(20vw);
-  }
+.container-chapter .app-card-chapter {
+  transform: translateX(20vw);
+  -webkit-transform: translateX(20vw);
+  -moz-transform: translateX(20vw);
+  -ms-transform: translateX(20vw);
+  -o-transform: translateX(20vw);
 }

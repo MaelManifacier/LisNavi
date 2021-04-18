@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { LISTSTORIES } from '../../mocks/list-stories.mock';
 import { StoryCard } from '../../model/story-card.model';
 
@@ -18,7 +19,7 @@ export class AccueilPage implements OnInit {
   stars?: Star[] = [];
   moonPhase = 1;
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
     const date = new Date();
@@ -74,6 +75,16 @@ export class AccueilPage implements OnInit {
     // 7 => Waning Crescent Moon
 
     return b;
+  }
+
+  foxClicked = 1;
+  clickFox() {
+    if(this.foxClicked === 3) {
+      this.foxClicked = 0;
+      this.router.navigate(['/image']);
+    } else {
+      this.foxClicked += 1;
+    }
   }
 
 }

@@ -3,8 +3,48 @@ $phone-width: 8in;
 $shadow-color : #301D0A;
 
 /* - - - Contenu composant - - - */
-.container-bouton-image {
-  margin: 2vh 2vw;
+.container-page-image {
+  overflow: hidden;
+}
+
+header {
+  max-height: 15vh;
+  margin: 2vh 5px;
+  display: flex;
+
+  h1 {
+    margin-left: 1rem;
+  }
+}
+
+.container-text {
+  height: 60vh;
+  overflow-y: auto;
+  max-width: 90%;
+  margin: 4vh auto;
+
+  div {
+    p {
+      line-height: 1.8rem;
+      font-size: 1.1rem;
+      margin : 1rem .5rem;
+    }
+  }
+}
+
+.container-menu {
+  // width: 100%;
+  max-height: 25vh;
+  div {
+    //position: relative;
+    //right: -6vw;
+    float: right;
+    transform: translateX(40px);
+    -webkit-transform: translateX(40px);
+    -moz-transform: translateX(40px);
+    -ms-transform: translateX(40px);
+    -o-transform: translateX(40px);
+  }
 }
 
 .container-list {
