@@ -101,7 +101,7 @@
   </defs>
   <g id="Groupe_591" data-name="Groupe 591" transform="translate(-11.231 -481.182)">
     <rect id="Rectangle_137" data-name="Rectangle 137" width="414" height="13" transform="translate(13 616)" fill="#b68957"/>
-    <path id="Tracé_939" data-name="Tracé 939" d="M2440,1795.016l21.869-13.435h391v13.435Z" transform="translate(-2427 -1179.015)" fill="#92693c" stroke="#707070" stroke-width="1"/>
+    <path id="Tracé_939" data-name="Tracé 939" d="M2440,1795.016l21.869-13.435h391v13.435Z" transform="translate(-2427 -1179.015)" fill="#92693c" stroke="#92693c" stroke-width="1"/>
   </g>
   <g id="Groupe_572" data-name="Groupe 572" transform="translate(-586.625 -1831.52)">
     <path id="Polygone_78" data-name="Polygone 78" d="M7.081,5.692a2,2,0,0,1,3.795,0l.031.093A2,2,0,0,0,12.172,7.05l.093.031a2,2,0,0,1,0,3.795l-.093.031a2,2,0,0,0-1.265,1.265l-.031.093a2,2,0,0,1-3.795,0l-.031-.093a2,2,0,0,0-1.265-1.265l-.093-.031a2,2,0,0,1,0-3.795l.093-.031A2,2,0,0,0,7.05,5.785Z" transform="translate(860.852 1924.568) rotate(18)" fill="#fffbfc"/>

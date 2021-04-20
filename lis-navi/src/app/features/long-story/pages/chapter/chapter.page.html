@@ -1,0 +1,22 @@
+<header>
+  <button [routerLink]="[ '/accueil/chapters', { storyName : chapter.storyName }]">
+    <img [src]="'assets/back.svg'"/>
+  </button>
+  <h1>{{ chapter.title }}</h1>
+  <span class="page-number">
+    {{ currentPage }} / {{ chapter.pages.length }}
+  </span>
+</header>
+
+<div class="container-detail">
+  <app-chapter-detail></app-chapter-detail> <!-- [page]="story.pages[currentPage-1]"-->
+</div>
+
+<div class="footer">
+  <button class="last" (click)="last()" [style.visibility]="currentPage > 1 ? 'visible' : 'hidden'">
+    <img [src]="chapter.btnLast ? chapter.btnLast : 'assets/story/lis-navi/last.svg'" />
+  </button>
+  <button class="next" (click)="next()" [style.visibility]="currentPage < chapter.pages.length ? 'visible' : 'hidden'">
+    <img [src]="chapter.btnNext ? chapter.btnNext : 'assets/story/lis-navi/next.svg'" />
+  </button>
+</div>

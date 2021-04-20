@@ -10,6 +10,7 @@ import { StoryCard } from '../../model/story-card.model';
 export class CardChapterComponent implements OnInit {
 
   @Input() cardChapter?: StoryCard;
+  @Input() storyName?: string;
 
   isPair = true;
 
@@ -17,15 +18,15 @@ export class CardChapterComponent implements OnInit {
 
   ngOnInit(): void {
     // test si pair ou impair pour savoir si décaler
-    if((this.cardChapter?.noChapitre || 1) %2 == 1) {
+    if ((this.cardChapter?.noChapitre || 1) % 2 === 1) {
       this.isPair = false;
     }
   }
 
-  setCardStyle() {
-    let loCardStyle = {
-      'transform' : `translateX(${this.isPair ? '20px': '-20px'})`
-    }
+  setCardStyle(): any {
+    const loCardStyle = {
+      transform : `translateX(${this.isPair ? '20px' : '-20px'})`
+    };
     return loCardStyle;
   }
 
