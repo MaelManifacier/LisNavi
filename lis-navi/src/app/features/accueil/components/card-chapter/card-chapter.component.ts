@@ -11,9 +11,22 @@ export class CardChapterComponent implements OnInit {
 
   @Input() cardChapter?: StoryCard;
 
+  isPair = true;
+
   constructor() { }
 
   ngOnInit(): void {
+    // test si pair ou impair pour savoir si décaler
+    if((this.cardChapter?.noChapitre || 1) %2 == 1) {
+      this.isPair = false;
+    }
+  }
+
+  setCardStyle() {
+    let loCardStyle = {
+      'transform' : `translateX(${this.isPair ? '20px': '-20px'})`
+    }
+    return loCardStyle;
   }
 
 }
