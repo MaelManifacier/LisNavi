@@ -89,3 +89,19 @@ header {
   }
 }
 */
+
+.container-lire {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  bottom: 5vh;
+
+  .btn-lire {
+    background-color: #BD4B47;
+    color: #FEFBF2;
+    padding: .6rem 4rem;
+    border-radius: 5px;
+    font-size: .9rem;
+  }
+}

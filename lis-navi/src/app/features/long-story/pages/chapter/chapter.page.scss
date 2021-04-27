@@ -1,0 +1,56 @@
+/* - - - Var - - - */
+$phone-width: 8in;
+
+/* - - - Contenu composant - - - */
+header {
+  max-height: 15vh;
+  margin: 0 5px;
+  display: flex;
+  justify-content: space-between;
+
+  div {
+    display: flex;
+    align-items: center;
+    h1 {
+      padding-left: 1rem;
+    }
+  }
+
+  img {
+    max-height: 10vh;
+  }
+
+  .page-number {
+    padding: 1.4rem;
+    font-family: 'Kells';
+    font-size: 1.2rem;
+  }
+}
+
+.container-detail {
+  width: 100vw;
+}
+
+.footer {
+  button {
+    position: absolute;
+    z-index: 2;
+    bottom: 2vh;
+
+    cursor: pointer;
+
+    transition: all .25s ease;
+    -webkit-animation-duration: 0.5;
+    animation-duration: 0.5s;
+    -webkit-animation-duration: calc(var(1s) * 0.5);
+    animation-duration: calc(var(1s) * 0.5);
+    -webkit-animation-name: bounceIn;
+    animation-name: bounceIn;
+  }
+  .last {
+    left: 2vw;
+  }
+  .next {
+    right: 2vw;
+  }
+}

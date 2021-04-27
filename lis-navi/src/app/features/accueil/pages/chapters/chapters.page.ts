@@ -12,6 +12,9 @@ export class ChaptersPage implements OnInit {
   storyName = '';
   chapters?: StoryCard[];
 
+  cardChapterSelected?: StoryCard;
+  isCardChapterSelected = false;
+
   constructor(private route: ActivatedRoute) { }
 
   ngOnInit(): void {
@@ -28,6 +31,11 @@ export class ChaptersPage implements OnInit {
         this.chapters = LISTCHAPTERSEDWIGE;
         break;
     }
+  }
+
+  selectCardChapter(chapter: StoryCard): void {
+    this.cardChapterSelected = chapter;
+    this.isCardChapterSelected = true;
   }
 
 }

@@ -23,8 +23,8 @@ export class AccueilPage implements OnInit {
 
   ngOnInit(): void {
     const date = new Date();
-    // this.getMoonPhase(date.getFullYear(), date.getMonth(), date.getDay())
-    this.moonPhase = this.getMoonPhase(date.getFullYear(), date.getMonth(), date.getDay());
+    // this.getMoonPhase(date.getFullYear(), date.getMonth(), date.getDate())
+    this.moonPhase = this.getMoonPhase(date.getFullYear(), date.getMonth(), date.getDate());
 
     this.stars?.push(new Star('etoile-filante', `1vh`, `10vw`, '0', '0'));
     let angle = Math.random() * Math.PI * 2;

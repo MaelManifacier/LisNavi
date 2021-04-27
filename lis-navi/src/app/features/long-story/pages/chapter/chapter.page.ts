@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, ParamMap, Router } from '@angular/router';
+import { CHAPTER1_EDWIGE } from '../../mocks/pages-chap1.mock';
 import { Chapter } from '../../model/chapter.model';
 
 @Component({
@@ -24,9 +25,17 @@ export class ChapterPage implements OnInit {
       this.currentPage = parseInt(params.get('id') ?? '1');
       this.storyName = params.get('storyName') ?? '';
       this.chapterUrl = params.get('chapterUrl') ?? '';
-      // this.getStoryFromName();
+      this.getStoryFromName();
       window.scrollTo(0, 0);
     });
+  }
+
+  getStoryFromName(): void {
+    switch (this.chapterUrl) {
+      case 'concert':
+        this.chapter = CHAPTER1_EDWIGE;
+        break;
+    }
   }
 
   last(): void {

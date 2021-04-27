@@ -1,15 +1,17 @@
 <header>
-  <button [routerLink]="[ '/accueil/chapters', { storyName : chapter.storyName }]">
-    <img [src]="'assets/back.svg'"/>
-  </button>
-  <h1>{{ chapter.title }}</h1>
+  <div>
+    <button [routerLink]="[ '/accueil/chapters', { storyName : chapter.storyName }]">
+      <img [src]="'assets/back.svg'"/>
+    </button>
+    <h1>{{ chapter.title }}</h1>
+  </div>
   <span class="page-number">
     {{ currentPage }} / {{ chapter.pages.length }}
   </span>
 </header>
 
 <div class="container-detail">
-  <app-chapter-detail></app-chapter-detail> <!-- [page]="story.pages[currentPage-1]"-->
+  <app-chapter-detail [page]="chapter.pages[currentPage-1]"></app-chapter-detail> <!-- [page]="story.pages[currentPage-1]"-->
 </div>
 
 <div class="footer">

@@ -1,0 +1,14 @@
+.container-text {
+  height: 60vh;
+  overflow-y: auto;
+  max-width: 90%;
+  margin: 4vh auto;
+
+  div {
+    p {
+      line-height: 1.8rem;
+      font-size: 1.1rem;
+      margin : 1rem .5rem;
+    }
+  }
+}

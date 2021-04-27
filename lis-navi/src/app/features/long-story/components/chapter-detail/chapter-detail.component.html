@@ -1,5 +1,7 @@
 <div #storyDetail class="container-page-detail">
-
-  CONTENU PAGE CHAPITRE
-
+  <div class="container-text">
+    <div *ngFor="let p of page.textImg">
+      <p [innerHTML]="p.text"></p>
+    </div>
+  </div>
 </div>
