@@ -23,7 +23,16 @@ export class CarteComponent implements OnInit {
 
   async ngOnInit(): Promise<void> {
     await this.getMaps();
+  }
+
+  ngAfterViewInit(): void {
+    //Called after ngAfterContentInit when the component's view has been initialized. Applies to components only.
+    //Add 'implements AfterViewInit' to the class.
     this.initBoard();
+
+    // Refraichissement du navigateur
+    // https://developer.mozilla.org/fr/docs/Games/Anatomy
+    window.requestAnimationFrame(this.boucle);
   }
 
   @HostListener('window:keydown', ['$event'])
@@ -34,7 +43,12 @@ export class CarteComponent implements OnInit {
   }
 
   getMaps(): void {
-    this.map = this.loaderService.getMap('/assets/carte/character.png');
+    this.map = this.loaderService.getMap('/assets/carte/tiles.png');
+  }
+
+  boucle(): void {
+    // this.ctx?.font = '48px serif';
+    this.ctx?.fillText('Hello world', 2, 5);
   }
 
   initBoard(): void {
@@ -59,10 +73,28 @@ export class CarteComponent implements OnInit {
     // this.ctx.drawImage(img, 0, 0, 106, 50);
     // let image = document.getElementById("source") as HTMLImageElement;
 
+    for (var i = 0; i < 3; i++) {
+      for (var j = 0; j < 3; j++) {
+        this.ctx.fillStyle = '#FFAAFF';
+        // this.ctx.fillRect(j * 25, i * 25, 25, 25);
+      }
+    }
+
+    // après une seconde, affiche les images dans le canvas
     setTimeout(() => {
-      console.log('hide');
+      console.log('show');
       if (this.ctx && img) {
+        // for (var i = 0; i < 3; i++) {
+        //   for (var j = 0; j < 3; j++) {
+        //     this.ctx.fillStyle = 'rgb(' + Math.floor(255 - 42.5 * i) + ',' +
+        //                      Math.floor(255 - 42.5 * j) + ',0)';
+        //     this.ctx.fillRect(j * 25, i * 25, 25, 25);
+        //   }
+        // }
+
         this.ctx.drawImage(img, 1, 1, 1, 1);
+        this.ctx.drawImage(img, 4, 4, 4, 2);
+        this.ctx?.fillText('Hello world', 2, 5);
       }
     }, 1000);
   }

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="55" height="32" viewBox="0 0 55 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#65bb2d"/>
+      <stop offset="1" stop-color="#60ae2c"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6cbb38"/>
+      <stop offset="1" stop-color="#60ae2c"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#51a51a"/>
+      <stop offset="1" stop-color="#41771e"/>
+    </linearGradient>
+    <filter id="Ellipse_105" x="0" y="23" width="55" height="9" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-4" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#49a010"/>
+      <stop offset="1" stop-color="#60ae2c"/>
+    </linearGradient>
+  </defs>
+  <g id="Groupe_444" data-name="Groupe 444" transform="translate(-335 -171.932)">
+    <circle id="Ellipse_90" data-name="Ellipse 90" cx="3.5" cy="3.5" r="3.5" transform="translate(367 186.931)" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_102" data-name="Ellipse 102" cx="3" cy="3" r="3" transform="translate(374 172.931)" fill="url(#linear-gradient-2)"/>
+    <g transform="matrix(1, 0, 0, 1, 335, 171.93)" filter="url(#Ellipse_105)">
+      <ellipse id="Ellipse_105-2" data-name="Ellipse 105" cx="24.5" cy="1.5" rx="24.5" ry="1.5" transform="translate(3 25)" fill="url(#linear-gradient-3)"/>
+    </g>
+    <circle id="Ellipse_97" data-name="Ellipse 97" cx="5" cy="5" r="5" transform="translate(346 182.931)" fill="url(#linear-gradient-4)"/>
+    <circle id="Ellipse_98" data-name="Ellipse 98" cx="2" cy="2" r="2" transform="translate(343 177.931)" fill="url(#linear-gradient-4)"/>
+    <circle id="Ellipse_100" data-name="Ellipse 100" cx="2" cy="2" r="2" transform="translate(354 171.931)" fill="url(#linear-gradient-4)"/>
+    <circle id="Ellipse_106" data-name="Ellipse 106" cx="1.5" cy="1.5" r="1.5" transform="translate(356 192.931)" fill="url(#linear-gradient-4)"/>
+    <circle id="Ellipse_107" data-name="Ellipse 107" cx="1" cy="1" r="1" transform="translate(374 172.931)" fill="url(#linear-gradient-2)"/>
+    <circle id="Ellipse_108" data-name="Ellipse 108" cx="1" cy="1" r="1" transform="translate(380 193.931)" fill="url(#linear-gradient-4)"/>
+    <circle id="Ellipse_109" data-name="Ellipse 109" cx="1" cy="1" r="1" transform="translate(378 191.931)" fill="url(#linear-gradient-4)"/>
+  </g>
+</svg>

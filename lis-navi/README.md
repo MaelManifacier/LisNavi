@@ -6,6 +6,9 @@ Dans l'angular.json, avoir : "outputPath": "dist",
 > ng build --prod --baseHref="https://maelmanifacier.github.io/LisNavi/"
 > ngh
 
+> ng add angular-cli-ghpages
+> ng deploy --base-href="https://maelmanifacier.github.io/LisNavi/"
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.3.
 
 ## Development server

@@ -27,6 +27,24 @@ header h1 {
   margin: 1rem .5rem;
 }
 
+.text-page-vide {
+  position: absolute;
+  top: 20vh;
+  left: 20vw;
+  font-style: italic;
+}
+
+@media (max-width: 8in) {
+  .text-page-vide {
+    max-width: 10rem;
+    text-align: left;
+  }
+}
+
+.background-if-not-scrolled {
+  background-image: linear-gradient(to bottom, #1F2D3B 90%, #344555 100%);
+}
+
 .container-menu {
   max-height: 25vh;
 }

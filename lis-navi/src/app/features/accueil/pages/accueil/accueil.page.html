@@ -11,7 +11,11 @@
   </div>
 
   <div class="container-title">
-    <!--<img src="assets/titre.svg" />-->
+    <div>
+      <button [routerLink]="'/image'" title="Go to the lab">
+        <img src="assets/onePage/lab.svg">
+      </button>
+    </div>
     <!--<h1>I <span style="color: #77EEF6;">believe </span>in <span style="color: #70FF74;">adventure</span></h1>-->
     <h1>I believe in adventure</h1>
   </div>
@@ -20,7 +24,7 @@
 
   <div class="container-list-stories">
     <!-- <div> -->
-      <app-accueil-double-card-story [storyCard]="storyCardEdwige"></app-accueil-double-card-story>
+      <!--<app-accueil-double-card-story [storyCard]="storyCardEdwige"></app-accueil-double-card-story>-->
       <app-accueil-card-story *ngFor="let story of listStories" [storyCard]="story"></app-accueil-card-story>
     <!-- </div> -->
   </div>

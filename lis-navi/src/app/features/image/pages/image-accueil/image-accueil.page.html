@@ -14,8 +14,9 @@
   </div>
   -->
 
-  <div class="container-text">
-    <div *ngFor="let t of text.textImg">
+  <p *ngIf="isTextePageVide" class="text-page-vide">Choisissez un livre dans la bibliothèque</p>
+  <div class="container-text" #ScrollText (scroll)="onScrollText($event)">
+    <div *ngFor="let t of text?.textImg">
       <p [innerHTML]="t.text"></p>
     </div>
   </div>
@@ -146,11 +147,11 @@
           </g>
         </g>
 
-        <a (click)="clickMenu('Livres')">
+        <a (click)="clickMenu('Pluie')">
           <g id="Groupe_594" data-name="Groupe 594" transform="translate(2.769 -486.182)">
             <path id="Tracé_944" data-name="Tracé 944" d="M2592.61,1665l11.277-2.922h34.43l-7.511,2.922Z" transform="translate(-2564 -1170.179)" fill="#d6c3b2"/>
             <path id="Tracé_945" data-name="Tracé 945" d="M2637.534,1662.388v119.251l-8.547,4.85V1665.352Z" transform="translate(-2562.651 -1170.489)" fill="#029d43"/>
-            <text id="Livres" transform="translate(52.27 579) rotate(-90)" fill="#fefbf2" font-size="18" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="0" y="0">Livres</tspan></text>
+            <text id="Pluie" transform="translate(52.27 600) rotate(-90)" fill="#fefbf2" font-size="12" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="0" y="0">Faiseur de pluie</tspan></text>
           </g>
         </a>
 
@@ -163,7 +164,7 @@
                 <g transform="matrix(1, -0.05, 0.05, 1, -352.9, 12.18)" filter="url(#Tracé_791-2)">
                   <path id="Tracé_791-8" data-name="Tracé 791" d="M3.187,0l37.7-.306A103.16,103.16,0,0,1,41.425,10V111c0,5.523-1.427,10-3.187,10H3.187C1.427,121,0,116.523,0,111V10C0,4.477,1.427,0,3.187,0Z" transform="translate(353.06 6.31) rotate(3)" fill="url(#linear-gradient-4)"/>
                 </g>
-                <text id="Monsieur_le_vent" data-name="Monsieur le vent" transform="translate(26.476 109.932) rotate(-90)" fill="#fefbf2" font-size="12" font-family="NirmalaUI, Nirmala UI"><tspan x="0" y="0">Monsieur le vent</tspan></text>
+                <text id="Monsieur_le_vent" data-name="Monsieur le vent" transform="translate(26.476 109.932) rotate(-90)" fill="#fefbf2" font-size="13" font-family="NirmalaUI, Nirmala UI"><tspan x="0" y="0">Monsieur le vent</tspan></text>
               </g>
             </g>
           </g>
@@ -183,7 +184,7 @@
         </g>
         <path id="Tracé_948" data-name="Tracé 948" d="M0,0H1L2.415,119.609,0,121Z" transform="translate(68.769 9.127)" fill="url(#linear-gradient-6)"/>
 
-        <a (click)="clickMenu('Musique')">
+        <a (click)="clickMenu('Neige')">
           <g id="Groupe_596" data-name="Groupe 596" transform="translate(2.769 -486.182)">
             <g id="Groupe_588" data-name="Groupe 588" transform="translate(201.952 396)">
               <g id="Groupe_586-4" data-name="Groupe 586" transform="translate(-154)">
@@ -194,7 +195,8 @@
             </g>
             <path id="Tracé_942" data-name="Tracé 942" d="M2592.61,1665l11.277-2.922h34.43l-7.511,2.922Z" transform="translate(-2523 -1170)" fill="#d6c3b2"/>
             <path id="Tracé_943" data-name="Tracé 943" d="M2637.534,1662.388v119.251l-8.547,4.85V1665.352Z" transform="translate(-2521.651 -1170.31)" fill="url(#linear-gradient-8)"/>
-            <text id="Musique" transform="translate(92.808 602) rotate(-90)" fill="#fefbf2" font-size="18" font-family="CourierNewPSMT, Courier New"><tspan x="0" y="0">Musique</tspan></text>
+            <text id="Neige" transform="translate(84.808 602) rotate(-90)" fill="#fefbf2" font-size="13" font-family="CourierNewPSMT, Courier New"><tspan x="0" y="0">Quand tombe</tspan></text>
+            <text id="Neige1" transform="translate(98.808 602) rotate(-90)" fill="#fefbf2" font-size="13" font-family="CourierNewPSMT, Courier New"><tspan x="0" y="0">la neige</tspan></text>
           </g>
         </a>
 
@@ -205,7 +207,7 @@
             <g transform="matrix(1, 0, 0, 1, -3.77, 486.18)" filter="url(#Tracé_791-5)">
               <path id="Tracé_791-11" data-name="Tracé 791" d="M3.209,0H38.5c1.772,0,2.209,4.477,2.209,10l.236,101a58.3,58.3,0,0,1-1.018,10.456L.826,121A61.432,61.432,0,0,1,0,111V10C0,4.477,1.437,0,3.209,0Z" transform="translate(112.43 8.82)" fill="url(#linear-gradient-10)"/>
             </g>
-            <text id="Jeux" transform="translate(133.521 595.5) rotate(-90)" fill="#fefbf2" font-size="18" font-family="Consolas"><tspan x="0" y="0">Jeux</tspan></text>
+            <text id="Jeux" transform="translate(133.521 595.5) rotate(-90)" fill="#fefbf2" font-size="18" font-family="Consolas"><tspan x="0" y="0"></tspan></text>
           </g>
         </a>
 
@@ -218,7 +220,7 @@
                 <g transform="matrix(1, 0, 0, 1, -155.15, -8.82)" filter="url(#Tracé_791-6)">
                   <path id="Tracé_791-12" data-name="Tracé 791" d="M3.187,0H38.238C40,0,41.425,4.477,41.425,10V111c0,5.523-.458,10.043-.458,10.043l-39.4.239C-.2,121.282,0,116.523,0,111V10C0,4.477,1.427,0,3.187,0Z" transform="translate(155.15 8.82)" fill="url(#linear-gradient-12)"/>
                 </g>
-                <text id="Liens" transform="translate(27.5 81.5) rotate(-90)" fill="#fefbf2" font-size="18" font-family="Garamond-Bold, Garamond" font-weight="700"><tspan x="0" y="0">Liens</tspan></text>
+                <text id="Liens" transform="translate(27.5 81.5) rotate(-90)" fill="#fefbf2" font-size="18" font-family="Garamond-Bold, Garamond" font-weight="700"><tspan x="0" y="0"></tspan></text>
               </g>
             </g>
           </g>
